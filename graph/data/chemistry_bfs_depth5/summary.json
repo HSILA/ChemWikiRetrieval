@@ -11,7 +11,7 @@
     {
       "article_members_written": 121,
       "category_edges_written": 72,
-      "completed_at": "2026-05-18T16:20:06+00:00",
+      "completed_at": "20260518-12:20",
       "depth": 1,
       "event": "depth_completed",
       "input_frontier_categories": 1,
@@ -27,13 +27,13 @@
       "seen_categories_total": 73,
       "skipped_namespace_memberships": 2,
       "skipped_redirect_memberships": 1,
-      "started_at": "2026-05-18T16:12:30+00:00",
+      "started_at": "20260518-12:12",
       "unresolved_memberships": 0
     },
     {
       "article_members_written": 6081,
       "category_edges_written": 496,
-      "completed_at": "2026-05-18T16:27:51+00:00",
+      "completed_at": "20260518-12:27",
       "depth": 2,
       "event": "depth_completed",
       "input_frontier_categories": 72,
@@ -49,13 +49,13 @@
       "seen_categories_total": 482,
       "skipped_namespace_memberships": 55,
       "skipped_redirect_memberships": 38,
-      "started_at": "2026-05-18T16:12:30+00:00",
+      "started_at": "20260518-12:12",
       "unresolved_memberships": 0
     },
     {
       "article_members_written": 21414,
       "category_edges_written": 1673,
-      "completed_at": "2026-05-18T16:35:44+00:00",
+      "completed_at": "20260518-12:35",
       "depth": 3,
       "event": "depth_completed",
       "input_frontier_categories": 409,
@@ -72,13 +72,13 @@
       "seen_categories_total": 1777,
       "skipped_namespace_memberships": 331,
       "skipped_redirect_memberships": 3705,
-      "started_at": "2026-05-18T16:12:30+00:00",
+      "started_at": "20260518-12:12",
       "unresolved_memberships": 0
     },
     {
       "article_members_written": 48831,
       "category_edges_written": 3474,
-      "completed_at": "2026-05-18T16:43:40+00:00",
+      "completed_at": "20260518-12:43",
       "depth": 4,
       "event": "depth_completed",
       "input_frontier_categories": 1295,
@@ -95,13 +95,13 @@
       "seen_categories_total": 4273,
       "skipped_namespace_memberships": 339,
       "skipped_redirect_memberships": 7170,
-      "started_at": "2026-05-18T16:12:30+00:00",
+      "started_at": "20260518-12:12",
       "unresolved_memberships": 0
     },
     {
       "article_members_written": 74478,
       "category_edges_written": 6102,
-      "completed_at": "2026-05-18T22:49:52+00:00",
+      "completed_at": "20260518-18:49",
       "depth": 5,
       "event": "depth_completed",
       "input_frontier_categories": 2496,
@@ -118,7 +118,7 @@
       "seen_categories_total": 8256,
       "skipped_namespace_memberships": 458,
       "skipped_redirect_memberships": 19542,
-      "started_at": "2026-05-18T22:41:48+00:00",
+      "started_at": "20260518-18:41",
       "unresolved_memberships": 0
     }
   ],
@@ -130,10 +130,10 @@
     "progress": "progress.jsonl"
   },
   "include_redirects": false,
-  "last_updated_at": "2026-05-18T22:49:52+00:00",
+  "last_updated_at": "20260518-18:49",
   "max_depth": 5,
   "output_dir": "/home/spark/projects/research/ChemWikiRetrieval/graph/data/chemistry_bfs_depth5",
   "seed": "Chemistry",
   "source_note": "Canonical depth-5 graph built by merging chemistry_bfs_depth4 with tmp_chemistry_depth5_delta; use this directory for pruning and downstream dataset construction.",
-  "started_at": "2026-05-18T16:12:30+00:00"
+  "started_at": "20260518-12:12"
 }

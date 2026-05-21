@@ -16,7 +16,7 @@ import shutil
 import sys
 import time
 from collections import Counter, defaultdict
-from datetime import datetime, timezone
+from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, Iterable, Iterator, List, Optional, Sequence, Tuple
 from urllib.parse import quote
@@ -25,8 +25,8 @@ ARTICLE_NS = 0
 CATEGORY_NS = 14
 
 
-def utc_now() -> str:
-    return datetime.now(timezone.utc).isoformat(timespec="seconds")
+def local_timestamp() -> str:
+    return datetime.now().strftime("%Y%m%d-%H:%M")
 
 
 def normalize_category_title(title: str) -> str:
@@ -62,6 +62,12 @@ def append_jsonl(path: Path, rows: Iterable[Dict[str, Any]]) -> int:
             f.write(json_dump(row) + "\n")
             count += 1
     return count
+
+
+def existing_output_files(out_dir: Path) -> List[Path]:
+    if not out_dir.exists():
+        return []
+    return sorted([*out_dir.glob("*.jsonl"), *out_dir.glob("*.jsonl.gz")])
 
 
 def write_json(path: Path, obj: Dict[str, Any]) -> None:
@@ -443,14 +449,17 @@ def run_bfs(args: argparse.Namespace) -> None:
                 child.unlink()
             elif child.is_dir() and child.name == "frontiers":
                 shutil.rmtree(child)
-    existing_jsonl = list(out_dir.glob("*.jsonl")) if out_dir.exists() else []
+    existing_jsonl = existing_output_files(out_dir)
     if existing_jsonl and not args.reset and not args.append:
-        raise FileExistsError(f"Output dir already has JSONL files: {out_dir}. Use --reset or --append.")
+        existing_names = ", ".join(path.name for path in existing_jsonl[:5])
+        raise FileExistsError(
+            f"Output dir already has JSONL files ({existing_names}): {out_dir}. Use --reset, or --append to intentionally duplicate into existing files."
+        )
     out_dir.mkdir(parents=True, exist_ok=True)
     frontiers_dir.mkdir(parents=True, exist_ok=True)
 
     seed = normalize_category_title(args.seed)
-    started_at = utc_now()
+    started_at = local_timestamp()
 
     paths: Dict[str, List[str]] = {seed: [seed]}
     seen_categories: set[str] = {seed}
@@ -472,7 +481,7 @@ def run_bfs(args: argparse.Namespace) -> None:
         completed_depth = depth
         input_frontier_size = len(frontier)
         t0 = time.time()
-        print(f"[{utc_now()}] depth={depth} frontier_categories={input_frontier_size}", file=sys.stderr, flush=True)
+        print(f"[{local_timestamp()}] depth={depth} frontier_categories={input_frontier_size}", file=sys.stderr, flush=True)
         by_source_id, link_counts = collect_members_for_frontier(categorylinks_sql, frontier)
         resolved = resolve_page_ids(page_sql, set(by_source_id.keys()))
 
@@ -590,7 +599,7 @@ def run_bfs(args: argparse.Namespace) -> None:
             "event": "depth_completed",
             "depth": depth,
             "started_at": started_at,
-            "completed_at": utc_now(),
+            "completed_at": local_timestamp(),
             "seconds": round(time.time() - t0, 2),
             "input_frontier_categories": input_frontier_size,
             "raw_link_counts": dict(link_counts),
@@ -614,7 +623,7 @@ def run_bfs(args: argparse.Namespace) -> None:
                 "max_depth": args.max_depth,
                 "include_redirects": args.include_redirects,
                 "started_at": started_at,
-                "last_updated_at": utc_now(),
+                "last_updated_at": local_timestamp(),
                 "completed_depth": depth,
                 "output_dir": str(out_dir),
                 "files": {
@@ -634,7 +643,7 @@ def run_bfs(args: argparse.Namespace) -> None:
             },
         )
         print(
-            f"[{utc_now()}] depth={depth} done new_categories={len(new_categories)} new_articles={len(new_articles)} seconds={summary['seconds']}",
+            f"[{local_timestamp()}] depth={depth} done new_categories={len(new_categories)} new_articles={len(new_articles)} seconds={summary['seconds']}",
             file=sys.stderr,
             flush=True,
         )
@@ -649,7 +658,7 @@ def run_bfs(args: argparse.Namespace) -> None:
             "max_depth": args.max_depth,
             "include_redirects": args.include_redirects,
             "started_at": started_at,
-            "last_updated_at": utc_now(),
+            "last_updated_at": local_timestamp(),
             "completed_depth": completed_depth,
             "output_dir": str(out_dir),
             "files": {
@@ -683,7 +692,7 @@ def parse_args(argv: Optional[Sequence[str]] = None) -> argparse.Namespace:
     parser.add_argument("--output-dir", default=None, help="Default: graph/data/<seed>_bfs_depth<max-depth>")
     parser.add_argument("--include-redirects", action="store_true", help="Include redirect article/category pages. Default skips them.")
     parser.add_argument("--reset", action="store_true", help="Delete existing files in output dir before writing.")
-    parser.add_argument("--append", action="store_true", help="Append to existing JSONL files instead of refusing. Use carefully.")
+    parser.add_argument("--append", action="store_true", help="Append to existing graph outputs without safety checks. This is not resume and can duplicate rows.")
     return parser.parse_args(argv)
 
 

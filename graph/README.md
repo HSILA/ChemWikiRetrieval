@@ -44,11 +44,15 @@ Core graph files:
 
 The `frontiers/` files and `progress.jsonl` are local debug artifacts. They are useful for inspecting BFS expansion, but pruning reads only the core graph files above. `prune_hybrid.py` reads `article_members.jsonl.gz` directly, so decompression is optional.
 
+Use `--reset` before rebuilding into an existing output directory. `--append` is only for intentional duplicate appends and is not a resume mode.
+
 To inspect or restore the plain JSONL locally:
 
 ```bash
 gzip -dk graph/data/chemistry_bfs_depth5/article_members.jsonl.gz
 ```
+
+Delete the decompressed `article_members.jsonl` before running pruning again; the loader refuses to choose when both plain and gzipped copies exist.
 
 ## Hybrid pruning
 

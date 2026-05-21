@@ -21,6 +21,7 @@ graph/data/**/frontiers/
 graph/data/**/article_members.jsonl
 graph/data/**/progress.jsonl
 graph/data/**/pruned_hybrid/*.bak-*
+graph/data/**/pruned_hybrid/category_errors.jsonl
 graph/data/**/pruned_hybrid/article_errors.jsonl
 graph/data/**/pruned_hybrid/branch_status.jsonl
 graph/data/**/pruned_hybrid/article_candidates.jsonl

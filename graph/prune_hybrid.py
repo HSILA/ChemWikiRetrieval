@@ -164,7 +164,7 @@ class BranchStatus:
     reason: str = ""
 
 
-def utc_now() -> str:
+def local_timestamp() -> str:
     return datetime.now().strftime("%Y%m%d-%H:%M")
 
 
@@ -188,12 +188,16 @@ def article_url(title: str) -> str:
 
 
 def resolve_jsonl_path(path: Path) -> Path:
-    if path.exists():
-        return path
     if path.suffix == ".jsonl":
         gz_path = path.with_suffix(path.suffix + ".gz")
+        if path.exists() and gz_path.exists():
+            raise FileExistsError(
+                f"Found both plain and gzipped JSONL for {path}; delete one so the canonical input is unambiguous."
+            )
         if gz_path.exists():
             return gz_path
+    if path.exists():
+        return path
     return path
 
 
@@ -312,16 +316,6 @@ def clamp_score(value: Any) -> int:
     except (TypeError, ValueError):
         score = 0
     return max(0, min(3, score))
-
-
-def as_bool(value: Any, *, default: bool = False) -> bool:
-    if isinstance(value, bool):
-        return value
-    if value is None:
-        return default
-    if isinstance(value, str):
-        return value.strip().lower() in {"1", "true", "yes", "y"}
-    return bool(value)
 
 
 def normalize_category_decision(raw: dict[str, Any]) -> dict[str, Any]:
@@ -493,6 +487,7 @@ class JsonlContextCache:
         self.kind = kind
         self.lock = threading.Lock()
         self.records: dict[str, dict[str, Any]] = {}
+        self.inflight: dict[str, threading.Event] = {}
         if path.exists():
             for row in read_jsonl(path):
                 if row.get("kind") == kind and row.get("title"):
@@ -506,36 +501,51 @@ class JsonlContextCache:
         return None
 
     def fetch(self, title: str, fetch_fn: Any) -> dict[str, Any]:
-        cached = self.get(title)
-        if cached is not None:
-            return cached
+        while True:
+            cached = self.get(title)
+            if cached is not None:
+                return cached
+            with self.lock:
+                event = self.inflight.get(title)
+                if event is None:
+                    event = threading.Event()
+                    self.inflight[title] = event
+                    break
+            event.wait()
+
         try:
-            context = fetch_fn(title)
-            record = {
-                "title": title,
-                "kind": self.kind,
-                "fetched_at": utc_now(),
-                "status": "ok",
-                "context": context,
-                "error": None,
-            }
-        except Exception as exc:  # noqa: BLE001 - keep the run resumable/auditable
-            context = {"title": title, "error": str(exc)}
-            record = {
-                "title": title,
-                "kind": self.kind,
-                "fetched_at": utc_now(),
-                "status": "error",
-                "context": context,
-                "error": str(exc),
-            }
-        with self.lock:
-            existing = self.records.get(title)
-            if existing and existing.get("status") == "ok":
-                return existing.get("context") or {}
-            append_jsonl(self.path, record)
-            self.records[title] = record
-        return context
+            try:
+                context = fetch_fn(title)
+                record = {
+                    "title": title,
+                    "kind": self.kind,
+                    "fetched_at": local_timestamp(),
+                    "status": "ok",
+                    "context": context,
+                    "error": None,
+                }
+            except Exception as exc:  # noqa: BLE001 - keep the run resumable/auditable
+                context = {"title": title, "error": str(exc)}
+                record = {
+                    "title": title,
+                    "kind": self.kind,
+                    "fetched_at": local_timestamp(),
+                    "status": "error",
+                    "context": context,
+                    "error": str(exc),
+                }
+            with self.lock:
+                existing = self.records.get(title)
+                if existing and existing.get("status") == "ok":
+                    return existing.get("context") or {}
+                append_jsonl(self.path, record)
+                self.records[title] = record
+            return context
+        finally:
+            with self.lock:
+                event = self.inflight.pop(title, None)
+                if event is not None:
+                    event.set()
 
 
 def openrouter_chat_json(
@@ -929,7 +939,7 @@ def run_stage1(args: argparse.Namespace) -> int:
             error_row = {
                 "stage": 1,
                 "kind": "category_error",
-                "created_at": utc_now(),
+                "created_at": local_timestamp(),
                 "category_title": title,
                 "error": str(exc),
                 "model": args.model,
@@ -966,7 +976,7 @@ def run_stage1(args: argparse.Namespace) -> int:
 
     summary = {
         "stage": "stage1",
-        "created_at": utc_now(),
+        "created_at": local_timestamp(),
         "input_dir": str(input_dir),
         "output_dir": str(output_dir),
         "selected_categories": len(rows),
@@ -1014,7 +1024,7 @@ def build_category_decision_row(
         **classification,
         "depth": row.get("depth"),
         "path": row.get("path"),
-        "created_at": utc_now(),
+        "created_at": local_timestamp(),
         "model": args.model,
         "model_returned": response.get("model_returned"),
         "reasoning_effort": args.reasoning_effort,
@@ -1037,7 +1047,7 @@ def build_article_decision_row(
         "article_url": candidate.get("article_url") or article_url(title),
         "candidate_status": candidate["candidate_status"],
         **classification,
-        "created_at": utc_now(),
+        "created_at": local_timestamp(),
         "model": args.model,
         "model_returned": response.get("model_returned"),
         "prompt_version": ARTICLE_PROMPT_VERSION,
@@ -1206,7 +1216,7 @@ def run_stage2(args: argparse.Namespace) -> int:
             error_row = {
                 "stage": 2,
                 "kind": "article_error",
-                "created_at": utc_now(),
+                "created_at": local_timestamp(),
                 "article_title": title,
                 "error": str(exc),
                 "fatal": True,
@@ -1219,7 +1229,7 @@ def run_stage2(args: argparse.Namespace) -> int:
             error_row = {
                 "stage": 2,
                 "kind": "article_error",
-                "created_at": utc_now(),
+                "created_at": local_timestamp(),
                 "article_title": title,
                 "error": str(exc),
                 "model": args.model,
