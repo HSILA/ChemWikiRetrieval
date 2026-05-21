@@ -1,0 +1,28 @@
+# Python / local tooling
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.hermes/
+
+# Raw dataset downloads kept local, not in git
+hotpot_train_v1.1.json
+hotpot_dev_distractor_v1.json
+hotpot_dev_fullwiki_v1.json
+
+# Raw Wikimedia SQL dumps kept under graph/dumps/
+graph/dumps/*.sql.gz
+graph/enwiki-20171001-*.sql.gz
+
+# Redundant/generated local graph artifacts
+# The pipeline can regenerate these from the core graph plus decisions.
+graph/data/_archive/
+graph/data/**/frontiers/
+graph/data/**/article_members.jsonl
+graph/data/**/progress.jsonl
+graph/data/**/pruned_hybrid/*.bak-*
+graph/data/**/pruned_hybrid/article_errors.jsonl
+graph/data/**/pruned_hybrid/branch_status.jsonl
+graph/data/**/pruned_hybrid/article_candidates.jsonl
+graph/data/**/pruned_hybrid/*_context_cache.jsonl
+graph/data/**/pruned_hybrid/stage*_summary.json

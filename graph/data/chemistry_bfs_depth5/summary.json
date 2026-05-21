@@ -1,0 +1,139 @@
+{
+  "completed_depth": 5,
+  "counts": {
+    "article_members_total": 150925,
+    "category_edges_total": 11817,
+    "last_frontier_categories": 3983,
+    "seen_articles_total": 89300,
+    "seen_categories_total": 8256
+  },
+  "depths": [
+    {
+      "article_members_written": 121,
+      "category_edges_written": 72,
+      "completed_at": "2026-05-18T16:20:06+00:00",
+      "depth": 1,
+      "event": "depth_completed",
+      "input_frontier_categories": 1,
+      "new_articles": 121,
+      "new_categories": 72,
+      "raw_link_counts": {
+        "page": 124,
+        "subcat": 72
+      },
+      "resolved_source_ids": 196,
+      "seconds": 456.45,
+      "seen_articles_total": 121,
+      "seen_categories_total": 73,
+      "skipped_namespace_memberships": 2,
+      "skipped_redirect_memberships": 1,
+      "started_at": "2026-05-18T16:12:30+00:00",
+      "unresolved_memberships": 0
+    },
+    {
+      "article_members_written": 6081,
+      "category_edges_written": 496,
+      "completed_at": "2026-05-18T16:27:51+00:00",
+      "depth": 2,
+      "event": "depth_completed",
+      "input_frontier_categories": 72,
+      "new_articles": 5241,
+      "new_categories": 409,
+      "raw_link_counts": {
+        "page": 6174,
+        "subcat": 496
+      },
+      "resolved_source_ids": 5816,
+      "seconds": 464.67,
+      "seen_articles_total": 5362,
+      "seen_categories_total": 482,
+      "skipped_namespace_memberships": 55,
+      "skipped_redirect_memberships": 38,
+      "started_at": "2026-05-18T16:12:30+00:00",
+      "unresolved_memberships": 0
+    },
+    {
+      "article_members_written": 21414,
+      "category_edges_written": 1673,
+      "completed_at": "2026-05-18T16:35:44+00:00",
+      "depth": 3,
+      "event": "depth_completed",
+      "input_frontier_categories": 409,
+      "new_articles": 16343,
+      "new_categories": 1295,
+      "raw_link_counts": {
+        "ignored_file": 70,
+        "page": 25450,
+        "subcat": 1673
+      },
+      "resolved_source_ids": 23837,
+      "seconds": 472.51,
+      "seen_articles_total": 21705,
+      "seen_categories_total": 1777,
+      "skipped_namespace_memberships": 331,
+      "skipped_redirect_memberships": 3705,
+      "started_at": "2026-05-18T16:12:30+00:00",
+      "unresolved_memberships": 0
+    },
+    {
+      "article_members_written": 48831,
+      "category_edges_written": 3474,
+      "completed_at": "2026-05-18T16:43:40+00:00",
+      "depth": 4,
+      "event": "depth_completed",
+      "input_frontier_categories": 1295,
+      "new_articles": 31789,
+      "new_categories": 2496,
+      "raw_link_counts": {
+        "ignored_file": 40,
+        "page": 56340,
+        "subcat": 3474
+      },
+      "resolved_source_ids": 49540,
+      "seconds": 476.6,
+      "seen_articles_total": 53494,
+      "seen_categories_total": 4273,
+      "skipped_namespace_memberships": 339,
+      "skipped_redirect_memberships": 7170,
+      "started_at": "2026-05-18T16:12:30+00:00",
+      "unresolved_memberships": 0
+    },
+    {
+      "article_members_written": 74478,
+      "category_edges_written": 6102,
+      "completed_at": "2026-05-18T22:49:52+00:00",
+      "depth": 5,
+      "event": "depth_completed",
+      "input_frontier_categories": 2496,
+      "new_articles": 35806,
+      "new_categories": 3983,
+      "raw_link_counts": {
+        "ignored_file": 60,
+        "page": 94478,
+        "subcat": 6102
+      },
+      "resolved_source_ids": 77753,
+      "seconds": 484.0,
+      "seen_articles_total": 89300,
+      "seen_categories_total": 8256,
+      "skipped_namespace_memberships": 458,
+      "skipped_redirect_memberships": 19542,
+      "started_at": "2026-05-18T22:41:48+00:00",
+      "unresolved_memberships": 0
+    }
+  ],
+  "files": {
+    "article_members": "article_members.jsonl.gz",
+    "articles": "articles.jsonl",
+    "categories": "categories.jsonl",
+    "category_edges": "category_edges.jsonl",
+    "progress": "progress.jsonl"
+  },
+  "include_redirects": false,
+  "last_updated_at": "2026-05-18T22:49:52+00:00",
+  "max_depth": 5,
+  "output_dir": "/home/spark/projects/research/ChemWikiRetrieval/graph/data/chemistry_bfs_depth5",
+  "seed": "Chemistry",
+  "source_note": "Canonical depth-5 graph built by merging chemistry_bfs_depth4 with tmp_chemistry_depth5_delta; use this directory for pruning and downstream dataset construction.",
+  "started_at": "2026-05-18T16:12:30+00:00"
+}
