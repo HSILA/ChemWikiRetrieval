@@ -2,6 +2,9 @@ from __future__ import annotations
 
 import gzip
 import json
+import threading
+import time
+from concurrent.futures import ThreadPoolExecutor
 from types import SimpleNamespace
 
 import pytest
@@ -131,6 +134,36 @@ def test_load_graph_reads_gzipped_article_members(tmp_path):
 
     assert graph.category_to_articles["Analytical_chemistry"] == ["Titration"]
     assert graph.article_to_categories["Titration"] == ["Analytical_chemistry"]
+
+
+def test_resolve_jsonl_path_rejects_plain_and_gz_side_by_side(tmp_path):
+    plain = tmp_path / "article_members.jsonl"
+    gz = tmp_path / "article_members.jsonl.gz"
+    plain.write_text('{"plain":true}\n', encoding="utf-8")
+    with gzip.open(gz, "wt", encoding="utf-8") as f:
+        f.write('{"gz":true}\n')
+
+    with pytest.raises(FileExistsError, match="both plain and gzipped JSONL"):
+        ph.resolve_jsonl_path(plain)
+
+
+def test_context_cache_coalesces_concurrent_first_fetch(tmp_path):
+    cache = ph.JsonlContextCache(tmp_path / "context_cache.jsonl", kind="article")
+    calls = []
+    lock = threading.Lock()
+
+    def fetch_fn(title):
+        with lock:
+            calls.append(title)
+        time.sleep(0.05)
+        return {"intro": title}
+
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        results = list(executor.map(lambda _: cache.fetch("Titration", fetch_fn), range(8)))
+
+    assert results == [{"intro": "Titration"}] * 8
+    assert calls == ["Titration"]
+    assert len(list(ph.read_jsonl(tmp_path / "context_cache.jsonl"))) == 1
 
 
 def test_normalize_category_decision_accepts_mixed_and_forces_article_review():
