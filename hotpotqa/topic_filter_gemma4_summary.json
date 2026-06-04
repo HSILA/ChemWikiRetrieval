@@ -1,0 +1,11 @@
+{
+  "input_rows": 301,
+  "processed_valid": 301,
+  "chemistry_true": 274,
+  "chemistry_false": 27,
+  "errors_latest": 0,
+  "model": "gemma4:31b",
+  "workers": 16,
+  "output": "hotpotqa/topic_filter_gemma4.jsonl",
+  "matches": "hotpotqa/matches.jsonl"
+}

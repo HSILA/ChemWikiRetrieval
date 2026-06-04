@@ -1,0 +1,28 @@
+{
+  "variant": "gemma_true",
+  "selection": "Gemma-cleaned qrel-title chemistry queries",
+  "queries": {
+    "train": 234,
+    "dev": 14,
+    "test": 26
+  },
+  "queries_total": 274,
+  "qrels": {
+    "train": 468,
+    "dev": 28,
+    "test": 52
+  },
+  "qrels_total": 548,
+  "qrel_query_ids": 274,
+  "qrel_unique_corpus_ids": 464,
+  "qrels_per_query_distribution": {
+    "2": 274
+  },
+  "corpus_docs": 40262,
+  "corpus_docs_from_chemistry_title_filter": 40070,
+  "positive_docs_added_by_force": 192,
+  "unreferenced_corpus_docs": 39798,
+  "missing_positive_docs": 0,
+  "missing_positive_doc_ids_sample": [],
+  "output_dir": "/home/spark/projects/research/ChemWikiRetrieval/hotpotqa/tmp_mteb_broad_chemistry/gemma_true"
+}

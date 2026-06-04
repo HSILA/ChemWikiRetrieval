@@ -1,0 +1,3143 @@
+[
+  {
+    "id": "5a70eed05542994082a3e3ee",
+    "question": "Piran, son of Viseh's body was washed with what solid, waxy, and grey or blackish flammable substance after he died?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Ambergris"
+    ],
+    "relevant_doc_ids": [
+      "49433671",
+      "1697"
+    ]
+  },
+  {
+    "id": "5a7126375542994082a3e5d9",
+    "question": "Which is composed of more atoms, Metaproscaline or Propane?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Propane"
+    ],
+    "relevant_doc_ids": [
+      "11112192",
+      "23643"
+    ]
+  },
+  {
+    "id": "5a712cf85542994082a3e627",
+    "question": "What synthetic stimulant is sometimes called flaka or gravel?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Alpha-Pyrrolidinopentiothiophenone",
+      "Alpha-Pyrrolidinopentiophenone"
+    ],
+    "relevant_doc_ids": [
+      "47107284",
+      "24309736"
+    ]
+  },
+  {
+    "id": "5a713b4d5542994082a3e6b6",
+    "question": "Deslorelin acetate causes an initial surge of which hormone that develops and regulates female reproductive system?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Deslorelin"
+    ],
+    "relevant_doc_ids": [
+      "20957021",
+      "22581"
+    ]
+  },
+  {
+    "id": "5a72b01d5542991f9a20c56b",
+    "question": "Fermiite is named after which Italian physicist?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Fermiite"
+    ],
+    "relevant_doc_ids": [
+      "49643923",
+      "10264"
+    ]
+  },
+  {
+    "id": "5a72b66d5542992359bc317d",
+    "question": "What is Aurin freely soluble in that is also called alcohol?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Aurin",
+      "Ethanol"
+    ],
+    "relevant_doc_ids": [
+      "2133263",
+      "10048"
+    ]
+  },
+  {
+    "id": "5a72c2815542992359bc31a1",
+    "question": "What generic medication is a non-selective betablocker used to treat congestive heart failure?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Carvedilol"
+    ],
+    "relevant_doc_ids": [
+      "54920942",
+      "3464521"
+    ]
+  },
+  {
+    "id": "5a7336ed5542991f9a20c68e",
+    "question": "Seneca Meadows Landfill Sends this Chemical compound with the chemical formula CH to  a nearby independent facility for producing electricity",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Methane"
+    ],
+    "relevant_doc_ids": [
+      "25108863",
+      "18582230"
+    ]
+  },
+  {
+    "id": "5a733ee65542992359bc32ae",
+    "question": "Irwin Stone originally published the hypothesis that which vitamin can be used as a supplement to treat and prevent scurvy?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Vitamin C"
+    ],
+    "relevant_doc_ids": [
+      "3316963",
+      "32509"
+    ]
+  },
+  {
+    "id": "5a7346935542991f9a20c6d6",
+    "question": "When did the person that helped van Vleck develop CFT die?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Crystal field theory"
+    ],
+    "relevant_doc_ids": [
+      "1138578",
+      "185853"
+    ]
+  },
+  {
+    "id": "5a73f1935542993a88ae2ea6",
+    "question": "Chattem is an American, Chattanooga, Tennessee-based, producer and marketer of over-the-counter healthcare products, brand portfolio includes Allegra, what other name is it called by?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Fexofenadine"
+    ],
+    "relevant_doc_ids": [
+      "2101217",
+      "974718"
+    ]
+  },
+  {
+    "id": "5a73f2265542993a88ae2ea9",
+    "question": "Who won a Nobel Prize in 1943 and is associated with Max Volmer?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Stern–Volmer relationship"
+    ],
+    "relevant_doc_ids": [
+      "9090619",
+      "396496"
+    ]
+  },
+  {
+    "id": "5a74464c55429979e28828c9",
+    "question": "What  organic compound made synthetically or obtained from corn mint, peppermint, or other mint oils is found in a product used to prevent infection of cuts, as well as to act as an astringent to reduce skin irritation?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Menthol"
+    ],
+    "relevant_doc_ids": [
+      "3508232",
+      "317380"
+    ]
+  },
+  {
+    "id": "5a74751555429979e288295a",
+    "question": "What form of sodium chloride in a non leathal shotgun shell could inflict very painful, but rarely deadly, wounds?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Halite"
+    ],
+    "relevant_doc_ids": [
+      "1044856",
+      "341566"
+    ]
+  },
+  {
+    "id": "5a74adca55429974ef308c30",
+    "question": "What acute metabolic condition can be defined by the elevation of a yellow compound that occurs in normal catabolic pathway that breaks down heme in vertebrates?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Bilirubin"
+    ],
+    "relevant_doc_ids": [
+      "1199991",
+      "68344"
+    ]
+  },
+  {
+    "id": "5a74b2765542996c70cfadb3",
+    "question": "Sugar alcohol is an organic compound, typically derived from sugars, that comprise a class of polyols, which is the most popular, due to its similarity to sucrose in visual appearance and sweetness?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Sugar alcohol",
+      "Xylitol"
+    ],
+    "relevant_doc_ids": [
+      "562526",
+      "220432"
+    ]
+  },
+  {
+    "id": "5a74be9355429974ef308c53",
+    "question": "Which female sex hormone, is Deslorelin acetate known to taper off?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Deslorelin"
+    ],
+    "relevant_doc_ids": [
+      "20957021",
+      "22581"
+    ]
+  },
+  {
+    "id": "5a74d3d955429974ef308c78",
+    "question": "Potassium bitartrate, sugar, water, colourings and flavorings can be combined to make which Scottish confection?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Potassium bitartrate"
+    ],
+    "relevant_doc_ids": [
+      "11260987",
+      "720240"
+    ]
+  },
+  {
+    "id": "5a74f37b5542993748c8974a",
+    "question": "What is the active ingredient in the product Freederm that treats acne?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Nicotinamide"
+    ],
+    "relevant_doc_ids": [
+      "37084399",
+      "21968"
+    ]
+  },
+  {
+    "id": "5a752dcf55429916b0164288",
+    "question": "What is the idealized chemical formula of the pigment synthesized by Johann Jacob Diesbach?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Prussian blue"
+    ],
+    "relevant_doc_ids": [
+      "11822202",
+      "182765"
+    ]
+  },
+  {
+    "id": "5a7545eb5542993748c89808",
+    "question": "Le Chatelier's principle is sometimes named after what German inventor, physicist and Nobel laureate in physics?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Le Chatelier's principle"
+    ],
+    "relevant_doc_ids": [
+      "37427",
+      "17297"
+    ]
+  },
+  {
+    "id": "5a75642d5542992d0ec05f82",
+    "question": "Betacetylmethadol is a substance regulated by what act signed into law by President Richard Nixon?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Betacetylmethadol"
+    ],
+    "relevant_doc_ids": [
+      "32019853",
+      "7727"
+    ]
+  },
+  {
+    "id": "5a7581895542992db9473670",
+    "question": "What is the name of the simple sugar with the molecular formula CHO that reduces bismuth oxynitrate to bismuth under alkaline conditions?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Nylander's test",
+      "Glucose"
+    ],
+    "relevant_doc_ids": [
+      "42416198",
+      "12950"
+    ]
+  },
+  {
+    "id": "5a75b0a15542992d0ec05fe2",
+    "question": "What city was the birthplace of the German physicist for which Hund's coupling cases in the spectroscopy of diatomic molecules are name for?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Hund's cases"
+    ],
+    "relevant_doc_ids": [
+      "35056728",
+      "322104"
+    ]
+  },
+  {
+    "id": "5a76cb8855429972597f13d2",
+    "question": "What colorless fammable gas does Dedar Bayou manufacture?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Ethylene"
+    ],
+    "relevant_doc_ids": [
+      "46463240",
+      "9837"
+    ]
+  },
+  {
+    "id": "5a76e5925542994aec3b7197",
+    "question": "Nariman Bomanshaw Mehta, was an Indian-born American organic chemist and pharmacologist who designed, synthesized, and patented which organic compound, medication primarily used as an antidepressant and smoking cessation aid?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Bupropion"
+    ],
+    "relevant_doc_ids": [
+      "42579600",
+      "378579"
+    ]
+  },
+  {
+    "id": "5a7712d455429966f1a36c1d",
+    "question": "What do you call a pore, found in the epidermis of leaves, stems, and other organs, that facilitates gas exchange, is part of the soil-plant-atmosphere continuum (SPAC),  the name of the pathway for water moving from soil through plants to the atmosphere",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Stoma"
+    ],
+    "relevant_doc_ids": [
+      "5554551",
+      "85746"
+    ]
+  },
+  {
+    "id": "5a7719cd5542993569682cbc",
+    "question": "The Bergamot essential oil often used in perfumes is found in what furanocoumarin from grapefruit juice?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Bergamottin",
+      "Bergamot essential oil"
+    ],
+    "relevant_doc_ids": [
+      "10033995",
+      "39655079"
+    ]
+  },
+  {
+    "id": "5a77211a55429966f1a36c90",
+    "question": "What copolymer of ethylene and vinyl acetate can nanofibers be made of?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Nanofiber",
+      "Ethylene-vinyl acetate"
+    ],
+    "relevant_doc_ids": [
+      "4406110",
+      "1566181"
+    ]
+  },
+  {
+    "id": "5a7730b45542994aec3b7217",
+    "question": "Which martial artist advocates for consumption of a sugar substitute?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Stevia"
+    ],
+    "relevant_doc_ids": [
+      "27408173",
+      "28152"
+    ]
+  },
+  {
+    "id": "5a77442f5542993569682d36",
+    "question": "What hormone is linked as a stress defense in plants as well as an antidepressant in humans?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Pharmacology of antidepressants",
+      "Melatonin"
+    ],
+    "relevant_doc_ids": [
+      "41213514",
+      "285157"
+    ]
+  },
+  {
+    "id": "5a774d685542994aec3b727c",
+    "question": "Which radio-controlled car is powered by the simplest organic nitro compound?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Nitromethane"
+    ],
+    "relevant_doc_ids": [
+      "2841542",
+      "245564"
+    ]
+  },
+  {
+    "id": "5a776e5a5542997042120a33",
+    "question": "What chemical \"body\" did Constantin Fahlberg discover that is used to sweeten drinks, candies, cookies, etc.?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Saccharin"
+    ],
+    "relevant_doc_ids": [
+      "11699741",
+      "323043"
+    ]
+  },
+  {
+    "id": "5a7773345542997042120a4c",
+    "question": "What was the German scientist who first observed Anode rays also an early investigator of?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Anode ray"
+    ],
+    "relevant_doc_ids": [
+      "1113217",
+      "30871655"
+    ]
+  },
+  {
+    "id": "5a778ca25542995d831811bd",
+    "question": "What hormone produced by both the adrenal glands and certain neurons is released by chromaffin cells?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Epinephrine"
+    ],
+    "relevant_doc_ids": [
+      "582940",
+      "10250"
+    ]
+  },
+  {
+    "id": "5a77b8cf5542995d8318127e",
+    "question": "What does the perennial rainforest shrub containing an active alkaloid also found in Voacanga africana and Tabernaemontana undulata induce in large doses?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Ibogaine"
+    ],
+    "relevant_doc_ids": [
+      "348970",
+      "2104803"
+    ]
+  },
+  {
+    "id": "5a77bd755542997042120b09",
+    "question": "What compound, known as aqua fortis or spirit of niter is used in rocket propellant?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Nitric acid"
+    ],
+    "relevant_doc_ids": [
+      "49018216",
+      "21655"
+    ]
+  },
+  {
+    "id": "5a77d87f5542995d83181307",
+    "question": "Protein phosphorylation is a post-translational modification of proteins, was first reported in 1906 by which American biochemist who studied the structure and function of nucleic acids, at the Rockefeller Institute for Medical Research?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Protein phosphorylation"
+    ],
+    "relevant_doc_ids": [
+      "14854417",
+      "3154519"
+    ]
+  },
+  {
+    "id": "5a78b5d2554299029c4b5e49",
+    "question": "The Gab operon is responsible for the conversion of γ-aminobutyrate to succinate, what is the  is the chief inhibitory neurotransmitter in the mammalian central nervous system, called?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Gab operon",
+      "Gamma-Aminobutyric acid"
+    ],
+    "relevant_doc_ids": [
+      "37242178",
+      "184540"
+    ]
+  },
+  {
+    "id": "5a78c703554299029c4b5e8b",
+    "question": "The Pueblo Chemical Agent-Destruction Pilot Plant is what that contains the prototypical substance of the sulfur-based family of cytotoxic and vesicant chemical warfare agents known as the sulfur mustards which have the ability to form large blisters on exposed skin and in the lungs?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Sulfur mustard"
+    ],
+    "relevant_doc_ids": [
+      "23320001",
+      "46126"
+    ]
+  },
+  {
+    "id": "5a78e145554299029c4b5ec2",
+    "question": "What is one of the amino acids used in the biosynthesis of proteins, that is in a synthetic peptide consisting of eight amino acids?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Strep-tag"
+    ],
+    "relevant_doc_ids": [
+      "22810498",
+      "63542"
+    ]
+  },
+  {
+    "id": "5a79119a55429974737f7963",
+    "question": "What has a structure resembling diferulic acid and is bright yellow?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Curcumin"
+    ],
+    "relevant_doc_ids": [
+      "11537084",
+      "321668"
+    ]
+  },
+  {
+    "id": "5a79191b55429907847277b3",
+    "question": "Nonactin is a member of a family of naturally occurring cyclic ionophores known as the macrotetrolide antibiotics,Nonactin is soluble in methanol, dichloromethane, ethyl acetate and which is an organosulfur compound with the formula (CH)SO?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Nonactin",
+      "Dimethyl sulfoxide"
+    ],
+    "relevant_doc_ids": [
+      "577916",
+      "569213"
+    ]
+  },
+  {
+    "id": "5a79306a554299148911fa24",
+    "question": "What are two of the trade names of the medication designed, synthesized, and patented by Indian-born American organic chemist and pharmacologist Nariman Bomanshaw Mehta?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Bupropion"
+    ],
+    "relevant_doc_ids": [
+      "42579600",
+      "378579"
+    ]
+  },
+  {
+    "id": "5a796abf5542990784727803",
+    "question": "Plutonium from the Hanford Site comes film which U.S. state?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Bismuth phosphate process"
+    ],
+    "relevant_doc_ids": [
+      "24038372",
+      "39038"
+    ]
+  },
+  {
+    "id": "5a7970bf554299078472780a",
+    "question": "What is on bath salts packaging to avoid drug laws?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "4'-Methyl-α-pyrrolidinopropiophenone"
+    ],
+    "relevant_doc_ids": [
+      "22114378",
+      "36262014"
+    ]
+  },
+  {
+    "id": "5a799c07554299029c4b5f5c",
+    "question": "What chemist created a viscous, colorless liquid used in World War I?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Sulfur mustard"
+    ],
+    "relevant_doc_ids": [
+      "52505273",
+      "46126"
+    ]
+  },
+  {
+    "id": "5a79acd25542996c55b2dc31",
+    "question": "What primary wine acid is found naturally in citris fruits?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Acids in wine",
+      "Citric acid"
+    ],
+    "relevant_doc_ids": [
+      "19600890",
+      "54536"
+    ]
+  },
+  {
+    "id": "5a79c55b5542996c55b2dc6d",
+    "question": "Robin Williamson's 1972 folk album is named after what natural resin and nativity gift?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Myrrh"
+    ],
+    "relevant_doc_ids": [
+      "27831843",
+      "96861"
+    ]
+  },
+  {
+    "id": "5a79e8ec5542996c55b2dc9b",
+    "question": "The Animal Drug Availability Act 1996 (ADAA) was signed into law by the 42nd President of the United States. Who was he?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Animal Drug Availability Act 1996"
+    ],
+    "relevant_doc_ids": [
+      "26628694",
+      "3356"
+    ]
+  },
+  {
+    "id": "5a79f84b5542996c55b2dcb9",
+    "question": "This man who  whom the Bejan numbers are named after is a distinguished professor of Mechanical engineering at what University?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Bejan number"
+    ],
+    "relevant_doc_ids": [
+      "1658968",
+      "1658929"
+    ]
+  },
+  {
+    "id": "5a7a12aa5542996c55b2dcfa",
+    "question": "Cardiologist Stephan Sinatra published journal articles on a coenzyme that is ubiquitous in animals and most what?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Coenzyme Q10"
+    ],
+    "relevant_doc_ids": [
+      "16026786",
+      "97574"
+    ]
+  },
+  {
+    "id": "5a7a312f5542996a35c17129",
+    "question": "Aside from the series that ranges from atomic numbers 89 to 103, what series is an exception to the rule that the number of valence electrons ranges from 0-8 electrons?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Core electron",
+      "Actinide"
+    ],
+    "relevant_doc_ids": [
+      "5129473",
+      "2308"
+    ]
+  },
+  {
+    "id": "5a7a428f5542994f819ef19b",
+    "question": "What is the best known brand name of the material other than dacron often used to replace the aneurysmal portion of the aorta in OAS?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Polytetrafluoroethylene"
+    ],
+    "relevant_doc_ids": [
+      "42306009",
+      "30791"
+    ]
+  },
+  {
+    "id": "5a7b14d85542992d025e674e",
+    "question": "What type of acid was named for the discoverer of the covalent bond?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Lewis acids and bases"
+    ],
+    "relevant_doc_ids": [
+      "222676",
+      "13017"
+    ]
+  },
+  {
+    "id": "5a7b1b6955429931da12c9c6",
+    "question": "The Standard Gravure shooting resulted in a high-profile lawsuit against which manufacturer of Fluoxetine?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Fluoxetine"
+    ],
+    "relevant_doc_ids": [
+      "6191325",
+      "10153680"
+    ]
+  },
+  {
+    "id": "5a7b245c55429931da12c9f5",
+    "question": "A mineral discovered by Travis Olds is named in honor of what Hungarian-born physicist and inventor?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Leószilárdite"
+    ],
+    "relevant_doc_ids": [
+      "55142371",
+      "56359"
+    ]
+  },
+  {
+    "id": "5a7b277e554299042af8f718",
+    "question": "What is the chemical formula for the acid used in boracic lint?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Boric acid"
+    ],
+    "relevant_doc_ids": [
+      "5092288",
+      "65546"
+    ]
+  },
+  {
+    "id": "5a7b33f45542995eb53be8ca",
+    "question": "What cosmological model for the universe took place approximately 13.8 Billion years ago and is generally understood to be nucleosynthesis in stars followed by mass ejection?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Primordial nuclide"
+    ],
+    "relevant_doc_ids": [
+      "23105042",
+      "4116"
+    ]
+  },
+  {
+    "id": "5a7b5aec55429927d897bf9f",
+    "question": "Auguste Laurent discovered what aromatic organic compound with the molecular formula CHOH?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Phenol"
+    ],
+    "relevant_doc_ids": [
+      "344550",
+      "24085"
+    ]
+  },
+  {
+    "id": "5a7b93905542997c3ec9722e",
+    "question": "What is the common name for things such as Maltose, Sucrose or saccharide?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Xylomannan",
+      "Disaccharide"
+    ],
+    "relevant_doc_ids": [
+      "25520575",
+      "8464"
+    ]
+  },
+  {
+    "id": "5a7ba3c6554299294a54aa4c",
+    "question": "Who was born earlier, Robert Bunsen or Gustav Kirchhoff?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Robert Bunsen"
+    ],
+    "relevant_doc_ids": [
+      "31345045",
+      "12332"
+    ]
+  },
+  {
+    "id": "5a7bc32755429927d897c038",
+    "question": "What international journal solely dedicated to non-fusion types of plasma science published an article about the Quanternol database?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Quantemol-DB"
+    ],
+    "relevant_doc_ids": [
+      "53875600",
+      "14033442"
+    ]
+  },
+  {
+    "id": "5a7bc4d855429927d897c03b",
+    "question": "Which chemical archaically called diamidogen was used in the Viking rocket engines?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Hydrazine"
+    ],
+    "relevant_doc_ids": [
+      "18403670",
+      "69955"
+    ]
+  },
+  {
+    "id": "5a7be48b55429907fabeef3b",
+    "question": "Homogentisic Acid  is found in Arbutus unedo , which is also know as what?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Homogentisic acid"
+    ],
+    "relevant_doc_ids": [
+      "4013262",
+      "1959451"
+    ]
+  },
+  {
+    "id": "5a7bee1a5542990527d5542a",
+    "question": "What rule is based on observation of atomic spectra?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Hund's rule of maximum multiplicity"
+    ],
+    "relevant_doc_ids": [
+      "481053",
+      "322104"
+    ]
+  },
+  {
+    "id": "5a7bf2ec5542996dd594b864",
+    "question": "Century eggs are made by preserving eggs in a mixture of clay, ash, salt and what kind of oxide?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Calcium oxide"
+    ],
+    "relevant_doc_ids": [
+      "30875975",
+      "147536"
+    ]
+  },
+  {
+    "id": "5a7c8f705542990527d554d0",
+    "question": "What color is the gas in the troposphere of the Leighton relationship equation?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Leighton relationship",
+      "Ozone"
+    ],
+    "relevant_doc_ids": [
+      "35760918",
+      "22718"
+    ]
+  },
+  {
+    "id": "5a7c9156554299683c1c6311",
+    "question": "What band sings a song whose title is slang for an anesthesia drug?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Ketamine"
+    ],
+    "relevant_doc_ids": [
+      "8915757",
+      "16948"
+    ]
+  },
+  {
+    "id": "5a7c9ea055429907fabeefcc",
+    "question": "What is the name of a medication used to within a chemotherapy regimen?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Cisplatin"
+    ],
+    "relevant_doc_ids": [
+      "37935148",
+      "1374187"
+    ]
+  },
+  {
+    "id": "5a7cb003554299683c1c6336",
+    "question": "Which did inventor Borge Bak study at the university of Copenhagen?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Spectroscopy"
+    ],
+    "relevant_doc_ids": [
+      "52876674",
+      "27752"
+    ]
+  },
+  {
+    "id": "5a7cb2e55542990527d55504",
+    "question": "What chemical compound caused the industrial disaster in Henderson, Nevada on May 4, 1988?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Ammonium perchlorate"
+    ],
+    "relevant_doc_ids": [
+      "56637",
+      "2398367"
+    ]
+  },
+  {
+    "id": "5a7cccae554299452d57ba6b",
+    "question": "What year was the high strength synthetic fiber, which was the subject of a lawsuit between DuPont and Kolon Industries, developed?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Kevlar"
+    ],
+    "relevant_doc_ids": [
+      "33096128",
+      "16759"
+    ]
+  },
+  {
+    "id": "5a7cd93755429909bec76847",
+    "question": "Charles Heidelberger, cancer researcher, developed the drug Fluorouracil (5-FU) which is sold under what name?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Fluorouracil"
+    ],
+    "relevant_doc_ids": [
+      "34073318",
+      "1300684"
+    ]
+  },
+  {
+    "id": "5a7cdcf555429907fabef050",
+    "question": "Cooper pairs were first described by an American physicist born in what year?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Cooper pair"
+    ],
+    "relevant_doc_ids": [
+      "376845",
+      "396611"
+    ]
+  },
+  {
+    "id": "5a7cea3f5542990527d55541",
+    "question": "What is the trade name for the anticonvulsant medication that uses Bromobutyric acid as a building block chemical?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "2-Bromobutyric acid",
+      "Levetiracetam"
+    ],
+    "relevant_doc_ids": [
+      "37223759",
+      "685428"
+    ]
+  },
+  {
+    "id": "5a7d2772554299452d57bb2d",
+    "question": "What property does Rotary technology and Nickel have in common?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Nickel"
+    ],
+    "relevant_doc_ids": [
+      "25406411",
+      "21274"
+    ]
+  },
+  {
+    "id": "5a7d2b56554299452d57bb42",
+    "question": "What tpe of vegetation does Sorghum bicolor and Sweet sorghum have in common?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Sweet sorghum"
+    ],
+    "relevant_doc_ids": [
+      "6647231",
+      "1250809"
+    ]
+  },
+  {
+    "id": "5a7d2bff5542995f4f402226",
+    "question": "Throughout her illustrious career, German chemist Lotte Loewe researched a variety of topics, from ascorbic acid reaction kinetics and uric acid to which organic pigments commonly made by plants, algae, bacteria and fungi?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Carotenoid"
+    ],
+    "relevant_doc_ids": [
+      "48916861",
+      "294943"
+    ]
+  },
+  {
+    "id": "5a7d3ff55542997cc2c47437",
+    "question": "Nutrisoda (formerly known as \"airforce Nutrisoda\") was the brand name of a nutrient-enhanced soda sold in the United States by which company, it was sweetened with Sucralose, an artificial sweetener made by chlorinating sucrose, and sugar substitute ?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Sucralose"
+    ],
+    "relevant_doc_ids": [
+      "22640696",
+      "48463"
+    ]
+  },
+  {
+    "id": "5a7da8d45542990b8f503a0f",
+    "question": "What colorless gas has historically been used to develop therapeutic drugs?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Carbon monoxide-releasing molecules",
+      "Nitric oxide"
+    ],
+    "relevant_doc_ids": [
+      "43083758",
+      "235287"
+    ]
+  },
+  {
+    "id": "5a7db14a5542990b8f503a32",
+    "question": "Boots that rise to the knee and were originally made of leather, can be made of a synthetic rubber that exhibits good chemical stability, and is produced by the polymerization of what?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Neoprene"
+    ],
+    "relevant_doc_ids": [
+      "1726988",
+      "217524"
+    ]
+  },
+  {
+    "id": "5a7df6915542997cc2c474d5",
+    "question": "Who was the director of the lab that designed bombs for the project that used mass spectrometers to separate isotopes of uranium?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "History of mass spectrometry"
+    ],
+    "relevant_doc_ids": [
+      "4906534",
+      "19603"
+    ]
+  },
+  {
+    "id": "5a7e41c85542991319bc9453",
+    "question": "Crystal arthropathy is a class of joint disorder (called \"arthropathy\"), which acid is characterized by accumulation of tiny crystals in one or more joints. Polarizing microscopy and application of other crystallographic techniques have improved identification of different microcrystals including monosodium urate, what is the heterocyclic compound of carbon, nitrogen, oxygen, and hydrogen with the formula CHNO?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Uric acid"
+    ],
+    "relevant_doc_ids": [
+      "20716028",
+      "31736"
+    ]
+  },
+  {
+    "id": "5a7e46ac554299495941996e",
+    "question": "What is the other name for a subastance , when bound to various radionuclides, is used in the treatment and diagnosis of certain types of cancer, and  is one of the 20 standard amino acids that are used by cells to synthesize proteins?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Edotreotide"
+    ],
+    "relevant_doc_ids": [
+      "32923154",
+      "31349"
+    ]
+  },
+  {
+    "id": "5a7f5d7c5542994857a76704",
+    "question": "The organic compound with formula C3H8O2 is mainly used as a what that can can be formed by the nucleophilic attack of methanol on a  colorless and flammable gas with a faintly sweet odor?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "2-Methoxyethanol",
+      "Ethylene oxide"
+    ],
+    "relevant_doc_ids": [
+      "5195433",
+      "306169"
+    ]
+  },
+  {
+    "id": "5a7fb8415542994857a767d6",
+    "question": "What is the formula for Sodium bicarbonate which is found in Clabber Girl?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Sodium bicarbonate"
+    ],
+    "relevant_doc_ids": [
+      "8648882",
+      "155725"
+    ]
+  },
+  {
+    "id": "5a7fbbe75542992e7d278d37",
+    "question": "What is the shorthand notation for the carboxylic acid in the most common type of sunflower seed?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Linoleic acid"
+    ],
+    "relevant_doc_ids": [
+      "58706",
+      "880497"
+    ]
+  },
+  {
+    "id": "5a80577a5542996402f6a4e9",
+    "question": "Which opioid along with Subutex makes up the two best known of the thevinol, orvinol, or bridged oripavine derivatives?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Buprenorphine"
+    ],
+    "relevant_doc_ids": [
+      "31911962",
+      "779848"
+    ]
+  },
+  {
+    "id": "5a807fc95542995d8a8ddf83",
+    "question": "Derivatives of Phthalane, a bicyclic aromatic organic compound, are found in the drug Citalopram, which is what type of drug?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Phthalane",
+      "Citalopram"
+    ],
+    "relevant_doc_ids": [
+      "26952066",
+      "201310"
+    ]
+  },
+  {
+    "id": "5a8088645542995d8a8ddf8e",
+    "question": "What type of drug is Oxandrolone that was found in the system of  Cinthya Domínguez in 2015?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Oxandrolone"
+    ],
+    "relevant_doc_ids": [
+      "24163171",
+      "2574402"
+    ]
+  },
+  {
+    "id": "5a80ab1c5542992097ad3014",
+    "question": "What is the chemical formula of the mineral used by the inventor known as 'The Wizard of Menlo Park' in 1895?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Scheelite"
+    ],
+    "relevant_doc_ids": [
+      "875405",
+      "29778"
+    ]
+  },
+  {
+    "id": "5a80b1a15542992097ad301b",
+    "question": "Methyl ethyl ketone is an organic compound that can be used as a solvent for what product?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Ethyl cyanoacrylate",
+      "Butanone"
+    ],
+    "relevant_doc_ids": [
+      "3185844",
+      "156952"
+    ]
+  },
+  {
+    "id": "5a80b25f554299485f5986c4",
+    "question": "What color is Cyclopentadienyl nickel nitrosyl?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Cyclopentadienyl nickel nitrosyl",
+      "Oxygen"
+    ],
+    "relevant_doc_ids": [
+      "34572743",
+      "22303"
+    ]
+  },
+  {
+    "id": "5a80cf92554299260e20a170",
+    "question": "Fenbendazole is ineffective against which parasite that is also called the flea tapeworm?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Fenbendazole"
+    ],
+    "relevant_doc_ids": [
+      "6511439",
+      "1701127"
+    ]
+  },
+  {
+    "id": "5a81110355429926c1cdace4",
+    "question": "What type of mixture is Vaseline?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Grease (lubricant)",
+      "Petroleum jelly"
+    ],
+    "relevant_doc_ids": [
+      "2439173",
+      "271860"
+    ]
+  },
+  {
+    "id": "5a8113ca55429938b61422ab",
+    "question": "What is found in Prochlorococcus and essential for photosynthesis?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Chlorophyll"
+    ],
+    "relevant_doc_ids": [
+      "693305",
+      "6985"
+    ]
+  },
+  {
+    "id": "5a81942d554299260e20a2a2",
+    "question": "What medication sold under the name Adrucil uses the phenomenon of Thymineless death?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Thymineless death",
+      "Fluorouracil"
+    ],
+    "relevant_doc_ids": [
+      "29264072",
+      "1300684"
+    ]
+  },
+  {
+    "id": "5a81ebef554299676cceb16e",
+    "question": "Base-richness in ecology is the level in water or soil of chemical bases, such as calcium or magnesium ions, changes in the levels of acids (such as dissolved carbon dioxide) may significantly change acidity without affecting base-richness, Carbonic acid is a chemical compound with which chemical formula ?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Base-richness",
+      "Carbonic acid"
+    ],
+    "relevant_doc_ids": [
+      "16806577",
+      "51420"
+    ]
+  },
+  {
+    "id": "5a820fe25542990a1d231f31",
+    "question": "Aashirvaad is a brand of staple food and kitchen ingredients whose products include Atta, ,spices, instant mixes and salt, a mineral composed primarily of what?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Salt"
+    ],
+    "relevant_doc_ids": [
+      "17003638",
+      "1605200"
+    ]
+  },
+  {
+    "id": "5a82741255429954d2e2eb4c",
+    "question": "The luteinizing hormone/choriogonadotropin receptor (LHCGR), also lutropin/choriogonadotropin receptor (LCGR) or luteinizing hormone receptor (LHR) is a transmembrane receptor found predominantly in the ovary and testis, but also many extragonadal organs such as the uterus and breasts, the receptor interacts with both luteinizing hormone (LH) and chorionic gonadotropins, such as hCG in humans, hCG is a hormone produced by the placenta after implantation, the acronym stand for?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Luteinizing hormone/choriogonadotropin receptor",
+      "Human chorionic gonadotropin"
+    ],
+    "relevant_doc_ids": [
+      "5760713",
+      "300445"
+    ]
+  },
+  {
+    "id": "5a82f72a55429966c78a6ab7",
+    "question": "What is formed through a reaction of (CH)C(CHOH) and Carbonyl Chloride?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Bisphenol A"
+    ],
+    "relevant_doc_ids": [
+      "23366853",
+      "1001430"
+    ]
+  },
+  {
+    "id": "5a8312fd55429966c78a6b23",
+    "question": "Borovička (also known as Juniper brandy), is a Slovak alcoholic beverage flavored with juniper berries, today's commercially produced borovička contains about 40% alcohol by volume, what is it called, also called alcohol, ethyl alcohol, and drinking alcohol, is a compound and simple alcohol with the chemical formula C2H5OH?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Ethanol"
+    ],
+    "relevant_doc_ids": [
+      "3685495",
+      "10048"
+    ]
+  },
+  {
+    "id": "5a832dae5542990548d0b1bd",
+    "question": "The man that invented Zone melting was a political supporter of what?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Zone melting"
+    ],
+    "relevant_doc_ids": [
+      "171396",
+      "758634"
+    ]
+  },
+  {
+    "id": "5a83c3125542996488c2e4bd",
+    "question": "Prandtl numbers are named after a pioneer in what applied science?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Prandtl number"
+    ],
+    "relevant_doc_ids": [
+      "58283",
+      "769148"
+    ]
+  },
+  {
+    "id": "5a8468c2554299123d8c2241",
+    "question": "What type of surface is the vehicles neoprene fan belts are made for supposed to drive in?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Neoprene"
+    ],
+    "relevant_doc_ids": [
+      "217524",
+      "145095"
+    ]
+  },
+  {
+    "id": "5a84c78c5542994c784dda4b",
+    "question": "A Fermi resonance was explained by the creator of the world's first what?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Fermi resonance"
+    ],
+    "relevant_doc_ids": [
+      "7600471",
+      "10264"
+    ]
+  },
+  {
+    "id": "5a84dd955542997b5ce3ff79",
+    "question": "Cadmium Chloride is slightly soluble in this chemical, it is also called what?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Cadmium chloride",
+      "Ethanol"
+    ],
+    "relevant_doc_ids": [
+      "1674867",
+      "10048"
+    ]
+  },
+  {
+    "id": "5a8612b35542996432c5719a",
+    "question": "Bruno Tesch was part of the team that invented what cyanide-based pesticide?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Zyklon B"
+    ],
+    "relevant_doc_ids": [
+      "6218205",
+      "71305"
+    ]
+  },
+  {
+    "id": "5a86a5ef5542996432c571dd",
+    "question": "Hermann Grimmeiss is a German-Swedish physicist who focused his research on studies of the emission of electrons or other free carriers when light is shone onto a what?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Photoelectric effect"
+    ],
+    "relevant_doc_ids": [
+      "53931526",
+      "23579"
+    ]
+  },
+  {
+    "id": "5a87225a5542991e771816de",
+    "question": "Where is most of the compound used in the topical application of magnesium found in North America?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Magnesium chloride"
+    ],
+    "relevant_doc_ids": [
+      "44633234",
+      "562007"
+    ]
+  },
+  {
+    "id": "5a88a0bf5542994846c1ce9b",
+    "question": "Radiohalos or pleochroic halos are microscopic, spherical shells of discolouration within minerals such as biotite that occur in granite and other igneous rocks, wider interest has been prompted by the claims of a creationist, by Robert V. Gentry, an American young Earth creationist and nuclear physicist, known for his claims that radiohalos provide evidence for a young age of what?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Radiohalo"
+    ],
+    "relevant_doc_ids": [
+      "57115",
+      "4219844"
+    ]
+  },
+  {
+    "id": "5a88a3525542997e5c09a660",
+    "question": "What is the virus that is viral fever of humans and primates and that Triazavirin could have a potential application?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Triazavirin"
+    ],
+    "relevant_doc_ids": [
+      "46504016",
+      "40817590"
+    ]
+  },
+  {
+    "id": "5a890cda554299515336127d",
+    "question": "Minnesota functionals were developed at which Minnesota city?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Minnesota functionals"
+    ],
+    "relevant_doc_ids": [
+      "30667843",
+      "416813"
+    ]
+  },
+  {
+    "id": "5a890ea0554299669944a489",
+    "question": "This ab initio quantum chemistry computer program was nabed after an English chemist, physicist and what?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Dalton (program)"
+    ],
+    "relevant_doc_ids": [
+      "741114",
+      "44112"
+    ]
+  },
+  {
+    "id": "5a8912aa55429951533612a5",
+    "question": "What extract is said to have certain cosmetic and hair-growth properties when using hexane, ethyl acetate, ethanol, water, methanol, or dimethyl carbinol as extractants?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Isopropyl alcohol"
+    ],
+    "relevant_doc_ids": [
+      "4933327",
+      "20888255"
+    ]
+  },
+  {
+    "id": "5a8912bc5542993b751ca903",
+    "question": "What is the study of the properties of this mechanism which is used by Smart insulin to control the glucose level?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Smart insulin"
+    ],
+    "relevant_doc_ids": [
+      "52706807",
+      "57330"
+    ]
+  },
+  {
+    "id": "5a89c0cb5542993b751ca987",
+    "question": "Alectinib developed by Hoffmann-La Roche is used to treat which type of cancer?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Alectinib"
+    ],
+    "relevant_doc_ids": [
+      "48831673",
+      "548739"
+    ]
+  },
+  {
+    "id": "5a89d4e8554299669944a5bb",
+    "question": "Who published more than 1,200 papers and books, of which about 850 dealt with scientific topics, and developed and named the CPK models that were the first widely used physical molecular models based on van der Waals radii ?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Van der Waals surface"
+    ],
+    "relevant_doc_ids": [
+      "14241105",
+      "37342"
+    ]
+  },
+  {
+    "id": "5a89d710554299669944a5c0",
+    "question": "What elements were discovered by an English chemist and physicist who has a alcium inosilicate mineral that may contain small amounts of iron, magnesium, and manganese substituting for calcium named after him?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Wollastonite",
+      "William Hyde Wollaston"
+    ],
+    "relevant_doc_ids": [
+      "875533",
+      "157164"
+    ]
+  },
+  {
+    "id": "5a8b3d8355429971feec468a",
+    "question": "Who has lead the American Skiing Company and MESys?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Maine Energy Systems"
+    ],
+    "relevant_doc_ids": [
+      "32485414",
+      "5239601"
+    ]
+  },
+  {
+    "id": "5a8b45c35542995d1e6f1336",
+    "question": "The inventor of Mayer's reagent and one of the founders of thermodynamics, Julius von Mayer was the first to enunciate what phrase, known as the first law of thermodynamics?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Mayer's reagent"
+    ],
+    "relevant_doc_ids": [
+      "33678989",
+      "585102"
+    ]
+  },
+  {
+    "id": "5a8ba3ca5542997f31a41d94",
+    "question": "The Schumacher Nitro 21 XT-R 3E is powered by what organic compound with the chemical formula CH3NO2?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Nitromethane"
+    ],
+    "relevant_doc_ids": [
+      "9457883",
+      "245564"
+    ]
+  },
+  {
+    "id": "5a8c469b5542995e66a4758e",
+    "question": "Who is this Danish physicist who made contributions to understanding atomic structure and quantum theory after whom a synthetic radioactive element with a half-life of about a minute is named?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Bohrium"
+    ],
+    "relevant_doc_ids": [
+      "4194",
+      "21210"
+    ]
+  },
+  {
+    "id": "5a8c7ac6554299240d9c2180",
+    "question": "Are Search for the Super Battery and Crazy English both American documentaries?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Search for the Super Battery"
+    ],
+    "relevant_doc_ids": [
+      "53072804",
+      "19107318"
+    ]
+  },
+  {
+    "id": "5a8c889f554299653c1aa0b0",
+    "question": "Terephthaloyl chlorideis the acid chloride of terephthalic acid and is one of two monomers used to make a para-aramid synthetic fiber related to other aramids such as Nomex and what",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Terephthaloyl chloride",
+      "Kevlar"
+    ],
+    "relevant_doc_ids": [
+      "3001955",
+      "16759"
+    ]
+  },
+  {
+    "id": "5a8ceec0554299441c6b9f88",
+    "question": "When did the Australian rail freight operator, whose main commodities included Aluminium oxide, become part of QR National?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Aluminium oxide"
+    ],
+    "relevant_doc_ids": [
+      "2495693",
+      "141888"
+    ]
+  },
+  {
+    "id": "5a8d55fb554299585d9e37c0",
+    "question": "Which plant has more flower heads and comes in more colors, Safflower or Styphelia?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Safflower"
+    ],
+    "relevant_doc_ids": [
+      "746513",
+      "20813195"
+    ]
+  },
+  {
+    "id": "5a8d8e1b554299441c6b9ffd",
+    "question": "Acrylic fibers were first created by what company that was an American conglomerate founded in July 1802?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Acrylic fiber"
+    ],
+    "relevant_doc_ids": [
+      "1953734",
+      "201829"
+    ]
+  },
+  {
+    "id": "5a8dbb2e554299441c6ba069",
+    "question": "What is the titration invented by the Danish chemist famous for the concept of pH used for?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Sørensen formol titration"
+    ],
+    "relevant_doc_ids": [
+      "2732992",
+      "76442"
+    ]
+  },
+  {
+    "id": "5a8ddfcb5542995a26add43f",
+    "question": "A theoretical explanation  of the Wien effect has been proposed by a man awarded the Nobel Prize in Chemistry in what year?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Wien effect"
+    ],
+    "relevant_doc_ids": [
+      "32195712",
+      "37175"
+    ]
+  },
+  {
+    "id": "5a8e4f835542990e94052ac4",
+    "question": "The anthraquinone process was developed by a German chemical company with a capital located in which city?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Anthraquinone process"
+    ],
+    "relevant_doc_ids": [
+      "30932321",
+      "171595"
+    ]
+  },
+  {
+    "id": "5a8e68c55542990e94052af8",
+    "question": "What year did the person who the Bohr radius is named after, receive a Nobel Prize in Physics?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Bohr radius"
+    ],
+    "relevant_doc_ids": [
+      "174396",
+      "21210"
+    ]
+  },
+  {
+    "id": "5a8f07df5542995085b374db",
+    "question": "Polyethylene glycol, one of the chemical components in Polyether block amide serves what purpose?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Polyether block amide",
+      "Polyethylene glycol"
+    ],
+    "relevant_doc_ids": [
+      "9804678",
+      "147203"
+    ]
+  },
+  {
+    "id": "5a8f18cf55429924144829b3",
+    "question": "Erinus and Safflower are both considered what?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Safflower"
+    ],
+    "relevant_doc_ids": [
+      "6641920",
+      "746513"
+    ]
+  },
+  {
+    "id": "5a8f41695542992414482a16",
+    "question": "The company that developed Nateglinide is also the world biggest producer of what?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Nateglinide"
+    ],
+    "relevant_doc_ids": [
+      "5426410",
+      "1298634"
+    ]
+  },
+  {
+    "id": "5a8faf5f554299458435d6aa",
+    "question": "what is the name of the poison isolated from Duscle garden nightshade?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Solanine"
+    ],
+    "relevant_doc_ids": [
+      "1034009",
+      "2187425"
+    ]
+  },
+  {
+    "id": "5a90b50355429933b8a20597",
+    "question": "What year did the namesake of Fermiite win the Nobel Prize?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Fermiite"
+    ],
+    "relevant_doc_ids": [
+      "49643923",
+      "10264"
+    ]
+  },
+  {
+    "id": "5a90b76b55429933b8a205ad",
+    "question": "Women from Yongduuni are known for production of a fat that is extracted from which tree ?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Shea butter"
+    ],
+    "relevant_doc_ids": [
+      "47298455",
+      "1347993"
+    ]
+  },
+  {
+    "id": "5ab27b38554299449642c8be",
+    "question": "Which Christmas special, directed by Bill Melendez, featured an aluminum Christmas tree?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Aluminum Christmas tree"
+    ],
+    "relevant_doc_ids": [
+      "20683281",
+      "113226"
+    ]
+  },
+  {
+    "id": "5ab27b385542997061209625",
+    "question": "What chemical compound did the first woman to win a nobel prize use to separate radium from barium?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Radium chloride"
+    ],
+    "relevant_doc_ids": [
+      "361969",
+      "20408"
+    ]
+  },
+  {
+    "id": "5ab299a6554299194fa93431",
+    "question": "The drug Nateglinide was developed by a company that has what percentage of the global market share?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Nateglinide"
+    ],
+    "relevant_doc_ids": [
+      "5426410",
+      "1298634"
+    ]
+  },
+  {
+    "id": "5ab2a0b5554299194fa93484",
+    "question": "What molecule or ion capable of donating a hydron, is associated with Solute carrier family 10 member 4 and the promotion of acidification in mice?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Acid"
+    ],
+    "relevant_doc_ids": [
+      "50211868",
+      "656"
+    ]
+  },
+  {
+    "id": "5ab2cb3055429916697740de",
+    "question": "By how many days per decade has the melt season lengthened in the shallowest of the world's major oceans?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Arctic sea ice decline"
+    ],
+    "relevant_doc_ids": [
+      "40659364",
+      "18951556"
+    ]
+  },
+  {
+    "id": "5ab3026c55429976abd1bc1c",
+    "question": "The BFH paper, named after the initials of the authors of the paper, a landmark paper of stellar physics published in \"Reviews of Modern Physics\" in which year?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "B2FH paper"
+    ],
+    "relevant_doc_ids": [
+      "12317945",
+      "513975"
+    ]
+  },
+  {
+    "id": "5ab3b11a5542992ade7c6e3b",
+    "question": "Who was the invention by Maurice Ward named by?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Starlite"
+    ],
+    "relevant_doc_ids": [
+      "32044632",
+      "10798875"
+    ]
+  },
+  {
+    "id": "5ab40a7f55429976abd1bd41",
+    "question": "Thyristor power controllers (SCR power controllers) control power or voltage supplied to a load, the controllers are used in industrial furnace construction or in the processing of which material consisting of any of a wide range of synthetic or semi-synthetic organic compounds that are malleable and so can be molded into solid objects?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Plastic"
+    ],
+    "relevant_doc_ids": [
+      "52514371",
+      "26145195"
+    ]
+  },
+  {
+    "id": "5ab4f65b5542991779162d38",
+    "question": "Sphingolipid was named after which human-lion mythical creature?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Sphingolipid"
+    ],
+    "relevant_doc_ids": [
+      "1100216",
+      "83076"
+    ]
+  },
+  {
+    "id": "5ab539115542997d4ad1f0d7",
+    "question": "Selaginella and Desfontainia, are what kind of item?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Desfontainia"
+    ],
+    "relevant_doc_ids": [
+      "67049",
+      "6948626"
+    ]
+  },
+  {
+    "id": "5ab567335542992aa134a30b",
+    "question": "What is the European Union's name for the artificial sweetener found in Nutrisoda?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Sucralose"
+    ],
+    "relevant_doc_ids": [
+      "22640696",
+      "48463"
+    ]
+  },
+  {
+    "id": "5ab612e2554299710c8d1e60",
+    "question": "When was the man that Dewar benzene is named for born?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Dewar benzene"
+    ],
+    "relevant_doc_ids": [
+      "7489527",
+      "55279"
+    ]
+  },
+  {
+    "id": "5ab6799555429953192ad2cd",
+    "question": "Where are the headquarters of the company that developed Crizanlizumab?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Crizanlizumab"
+    ],
+    "relevant_doc_ids": [
+      "52481577",
+      "159284"
+    ]
+  },
+  {
+    "id": "5ab67b5755429954757d32ec",
+    "question": "The beta blocker used for treating mild to severe congestive heart failure is an is an adrenergic antagonist sold under what brand name?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Carvedilol"
+    ],
+    "relevant_doc_ids": [
+      "54920942",
+      "3464521"
+    ]
+  },
+  {
+    "id": "5ab6bdbb5542995eadef0091",
+    "question": "What is the chemical name for the medicine first produced in the USA at Rensselaer, New York ?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Aspirin"
+    ],
+    "relevant_doc_ids": [
+      "127054",
+      "1525"
+    ]
+  },
+  {
+    "id": "5ab71bd25542993667793f3b",
+    "question": "What American biochemist, born February 1869 was first responsible for reporting Protein phosphorylation?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Protein phosphorylation"
+    ],
+    "relevant_doc_ids": [
+      "14854417",
+      "3154519"
+    ]
+  },
+  {
+    "id": "5ab732825542993667793f81",
+    "question": "What does Prussian blue and Bluing have in common?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Bluing (fabric)",
+      "Prussian blue"
+    ],
+    "relevant_doc_ids": [
+      "3140268",
+      "182765"
+    ]
+  },
+  {
+    "id": "5ab768585542993667793fd3",
+    "question": "What was the former parent company of the pharmacy chain that discovered and developed Flosequinan?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Flosequinan"
+    ],
+    "relevant_doc_ids": [
+      "12636917",
+      "32185609"
+    ]
+  },
+  {
+    "id": "5ab7d76d55429928e1fe3927",
+    "question": "Freederm is a UK brand of acne and skin care medication that includes an active ingredient used by mouth to treat what ?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Nicotinamide"
+    ],
+    "relevant_doc_ids": [
+      "37084399",
+      "21968"
+    ]
+  },
+  {
+    "id": "5ab8c2da5542991b5579effc",
+    "question": "What type of plants are Desfontainia and Tithonia?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Desfontainia"
+    ],
+    "relevant_doc_ids": [
+      "6948626",
+      "16035378"
+    ]
+  },
+  {
+    "id": "5ab8f0ef55429916710eb0c7",
+    "question": "Which plant is native to regions of Asia, Marrubium or Antirrhinum?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Antirrhinum"
+    ],
+    "relevant_doc_ids": [
+      "260893",
+      "78223"
+    ]
+  },
+  {
+    "id": "5ab90e4b55429934fafe6e4e",
+    "question": "Lawrencium was named in honor of the chemist of what nationality?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Lawrencium"
+    ],
+    "relevant_doc_ids": [
+      "17746",
+      "39040"
+    ]
+  },
+  {
+    "id": "5ab9eefc55429901930fa74b",
+    "question": "Alkalinity is the name given to the quantitative capacity of an aqueous solution to neutralize an acid, measuring alkalinity is important in determining a stream's ability to neutralize acidic pollution from acid rain, or any other form of precipitation that is unusually acidic, meaning that it has elevated levels of hydrogen ions, and which ph?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Alkalinity",
+      "Acid rain"
+    ],
+    "relevant_doc_ids": [
+      "1427251",
+      "3263"
+    ]
+  },
+  {
+    "id": "5abadd7d5542996cc5e49eb6",
+    "question": "What Swiss multinational healthcare company, introduced the steroidal progestin, Trengestone, in 1974?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Trengestone"
+    ],
+    "relevant_doc_ids": [
+      "44633434",
+      "548739"
+    ]
+  },
+  {
+    "id": "5abae2e9554299660624165f",
+    "question": "The Zel'dovich number is a dimensionless number named after a scientist that died in what year?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Zel'dovich number"
+    ],
+    "relevant_doc_ids": [
+      "54063615",
+      "475212"
+    ]
+  },
+  {
+    "id": "5abc8759554299114383a13d",
+    "question": "In which area did this French engineer and physicist, whose name became synonymous to one of a series of concentric prolate ellipsoidal regions of space between and around a transmitting antenna and a receiving antenna system, contribute significantly?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Fresnel zone"
+    ],
+    "relevant_doc_ids": [
+      "41196",
+      "1141"
+    ]
+  },
+  {
+    "id": "5abc99315542993a06baf928",
+    "question": "Are both Lyonothamnus and Antirrhinum known as dragon flowers?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Antirrhinum"
+    ],
+    "relevant_doc_ids": [
+      "24274626",
+      "260893"
+    ]
+  },
+  {
+    "id": "5abd11ad55429924427fcee5",
+    "question": "Also known as spirit of nider, what reacts with proteins to form yellow products?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Xanthoproteic acid",
+      "Nitric acid"
+    ],
+    "relevant_doc_ids": [
+      "25505762",
+      "21655"
+    ]
+  },
+  {
+    "id": "5abdd95f5542991f6610606c",
+    "question": "Who is the French physicist that Coulometry is named after?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Coulometry"
+    ],
+    "relevant_doc_ids": [
+      "1221466",
+      "211439"
+    ]
+  },
+  {
+    "id": "5abe777855429976d4830b22",
+    "question": "What German theoretical physicist has a chemistry rule named after him?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Grimm–Sommerfeld rule"
+    ],
+    "relevant_doc_ids": [
+      "5587882",
+      "213639"
+    ]
+  },
+  {
+    "id": "5abfb27e5542990832d3a1b7",
+    "question": "Plastik is an album named after what type of organic compound?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Plastic"
+    ],
+    "relevant_doc_ids": [
+      "5085990",
+      "26145195"
+    ]
+  },
+  {
+    "id": "5abfc1cf5542997719eab6b2",
+    "question": "Sic1 is an inhibitor in which species of yeast used in winemaking and breadmaking?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Sic1"
+    ],
+    "relevant_doc_ids": [
+      "19658010",
+      "237704"
+    ]
+  },
+  {
+    "id": "5abff1ff5542997ec76fd47b",
+    "question": "Who assembled the phonograph records that were included aboard both Voyager spacecraft launched in 1977?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Carl Sagan"
+    ],
+    "relevant_doc_ids": [
+      "6824",
+      "144386"
+    ]
+  },
+  {
+    "id": "5ac143775542991316484aae",
+    "question": "Were Carl Sagan and Mary Doria Russell both American?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Carl Sagan"
+    ],
+    "relevant_doc_ids": [
+      "180964",
+      "6824"
+    ]
+  },
+  {
+    "id": "5ac2476755429951e9e68520",
+    "question": "Were Ryūnosuke Akutagawa and Carl Sagan both writers?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Carl Sagan"
+    ],
+    "relevant_doc_ids": [
+      "186538",
+      "6824"
+    ]
+  },
+  {
+    "id": "5ac2562f5542992f1f2b385d",
+    "question": "The person who published New System of Chemical Philosophy\" (1803) was born on what date?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Law of multiple proportions"
+    ],
+    "relevant_doc_ids": [
+      "18339",
+      "44112"
+    ]
+  },
+  {
+    "id": "5ac2c2d95542990b17b15488",
+    "question": "STED microscopy was developed by a man who is one of the directors of what?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "STED microscopy"
+    ],
+    "relevant_doc_ids": [
+      "4739349",
+      "8104355"
+    ]
+  },
+  {
+    "id": "5ac4b8a8554299076e296de2",
+    "question": "Ferrocyanide is the name of the anion [Fe(CN)], it is the commercial interest as a precursor to the pigment with what idealized chemical formula?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Ferrocyanide",
+      "Prussian blue"
+    ],
+    "relevant_doc_ids": [
+      "2798040",
+      "182765"
+    ]
+  },
+  {
+    "id": "5ac516005542996feb3fe9f4",
+    "question": "Flight of the Cosmic Hippo is the second album by Béla Fleck and the Flecktones, released in 1991, the album title came from an audience member who suggested \"Flight of the Codeine Hippo\" as a name for the title track, codeine is an opiate used to treat pain, as a cough medicine, and for diarrhea, and the total duration of its effects last for about how long?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Codeine"
+    ],
+    "relevant_doc_ids": [
+      "1959538",
+      "9716092"
+    ]
+  },
+  {
+    "id": "5ac5296c55429924173fb61f",
+    "question": "What is the nationality of one of the men for whom the Schumann–Runge bands are named?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Schumann–Runge bands"
+    ],
+    "relevant_doc_ids": [
+      "45640813",
+      "747636"
+    ]
+  },
+  {
+    "id": "5ac537105542996feb3fea36",
+    "question": "Are both Vigna and Desfontainia considered genus level classification?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Desfontainia"
+    ],
+    "relevant_doc_ids": [
+      "487061",
+      "6948626"
+    ]
+  },
+  {
+    "id": "5adc16775542994650320c64",
+    "question": "Which company markets Melarsomine as Immiticide in order to treat a small thread-like worm that causes filariasis in dogs, mainly, but also cats, ferrets, bears, sea lions, and coyotes?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Melarsomine"
+    ],
+    "relevant_doc_ids": [
+      "21103950",
+      "1724016"
+    ]
+  },
+  {
+    "id": "5adc1e0555429944faac242d",
+    "question": "When was the American astronomer, cosmologist, astrophysicist, astrobiologist died who's introduction is in The Space Gods Revealed?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Carl Sagan"
+    ],
+    "relevant_doc_ids": [
+      "2160140",
+      "6824"
+    ]
+  },
+  {
+    "id": "5adc62405542996e68525344",
+    "question": "What is the brand name of the injectable drug for type 2 diabetes that was marketed by a Danish multinational pharmaceutical company with a majority shareholder Novo Holdings A/S?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Liraglutide"
+    ],
+    "relevant_doc_ids": [
+      "15809706",
+      "1057064"
+    ]
+  },
+  {
+    "id": "5adcbf595542994734353788",
+    "question": "How many meta states does the first isotope to be synthesized in Am in 1944 have?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Americium-241",
+      "Isotopes of americium"
+    ],
+    "relevant_doc_ids": [
+      "48787726",
+      "2527203"
+    ]
+  },
+  {
+    "id": "5adcfae055429947343537ee",
+    "question": "Pyrethrum is a genus of flower native to which continent?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Pyrethrum"
+    ],
+    "relevant_doc_ids": [
+      "265892",
+      "296542"
+    ]
+  },
+  {
+    "id": "5add1b515542992c1e3a253a",
+    "question": "Who is the current editor of the journal that where the state-universal coupled cluster (SUCC) method was first published?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "State-universal coupled cluster"
+    ],
+    "relevant_doc_ids": [
+      "2674172",
+      "30300084"
+    ]
+  },
+  {
+    "id": "5add3a455542992ae4cec4fe",
+    "question": "The company that Corexit is an indirect subsidiary of is headquartered in what city?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Corexit"
+    ],
+    "relevant_doc_ids": [
+      "27374531",
+      "2126008"
+    ]
+  },
+  {
+    "id": "5add443a5542992ae4cec503",
+    "question": "What American biotechnology company is part of Gloucester Pharmaceuticals?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Romidepsin"
+    ],
+    "relevant_doc_ids": [
+      "24314125",
+      "2887610"
+    ]
+  },
+  {
+    "id": "5add58dd5542990dbb2f7e4a",
+    "question": "Ammonium perchlorate was involved in the 1988 disaster that took place in what Nevada city?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Ammonium perchlorate"
+    ],
+    "relevant_doc_ids": [
+      "56637",
+      "2398367"
+    ]
+  },
+  {
+    "id": "5addd81c5542990dbb2f7eb8",
+    "question": "Gloria Material Technology Corp. includes what steel grade that has a cubic austenitic structure?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Superalloy"
+    ],
+    "relevant_doc_ids": [
+      "29430792",
+      "2025632"
+    ]
+  },
+  {
+    "id": "5ade24d65542990dbb2f7f5c",
+    "question": "Friedrich Hund, creator of Hund's rule of maximum multiplicity, is known for his work on what?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Hund's rule of maximum multiplicity"
+    ],
+    "relevant_doc_ids": [
+      "481053",
+      "322104"
+    ]
+  },
+  {
+    "id": "5ade260e5542997c77aded71",
+    "question": "Arrhenius equation was proposed by this  Nobel-Prize winning Swedish scientist who is one of the founders of the science of what?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Arrhenius equation"
+    ],
+    "relevant_doc_ids": [
+      "47011",
+      "36586"
+    ]
+  },
+  {
+    "id": "5ade2eec554299728e26c669",
+    "question": "The Franck–Condon principle was postulated by which 1925 Nobel Physics Prize recipient?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Franck–Condon principle"
+    ],
+    "relevant_doc_ids": [
+      "1590747",
+      "381797"
+    ]
+  },
+  {
+    "id": "5ade333655429939a52fe862",
+    "question": "Mond gas is a cheap coal gas that was used for industrial heating purposes, the gas was named after its founder, a German-born chemist and industrialist who took British nationality?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Mond gas"
+    ],
+    "relevant_doc_ids": [
+      "19104225",
+      "850924"
+    ]
+  },
+  {
+    "id": "5ade6061554299728e26c6f8",
+    "question": "Turbidimetric inhibition immunoassay is used in many commercial immunoassays, including this medication sold under which brand name?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Turbidimetric inhibition immunoassay",
+      "Digoxin"
+    ],
+    "relevant_doc_ids": [
+      "35745636",
+      "334957"
+    ]
+  },
+  {
+    "id": "5ade779255429939a52fe8ce",
+    "question": "The company that markets Polysilicone-15 as Parsol SLX is headquartered where?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Polysilicone-15"
+    ],
+    "relevant_doc_ids": [
+      "19054304",
+      "1079743"
+    ]
+  },
+  {
+    "id": "5ade77a855429975fa854ed1",
+    "question": "An article detailing the Quantemol database and service was published in 2017 in an international journal dedicated solely to what aspects of plasma science?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Quantemol-DB"
+    ],
+    "relevant_doc_ids": [
+      "53875600",
+      "14033442"
+    ]
+  },
+  {
+    "id": "5adec290554299728e26c7c6",
+    "question": "Turbidimetric inhibition immunoassay may be used to test your blood if you have what condition?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Turbidimetric inhibition immunoassay",
+      "Digoxin"
+    ],
+    "relevant_doc_ids": [
+      "35745636",
+      "334957"
+    ]
+  },
+  {
+    "id": "5adec73055429975fa854f8b",
+    "question": "Lucium was confimed to be an impure sample of yttrium by an English chemist who became the president of what?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Lucium"
+    ],
+    "relevant_doc_ids": [
+      "24436674",
+      "27648"
+    ]
+  },
+  {
+    "id": "5adee9b355429975fa854fba",
+    "question": "The village in India founded by Salehadi Singh Shekhawat in 1732 is home to what crop made from mustard seeds?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Mustard oil"
+    ],
+    "relevant_doc_ids": [
+      "4119707",
+      "746422"
+    ]
+  },
+  {
+    "id": "5adf49215542993a75d2648a",
+    "question": "Ammonium perchlorate was used in the disaster that occurred in what city?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Ammonium perchlorate"
+    ],
+    "relevant_doc_ids": [
+      "56637",
+      "2398367"
+    ]
+  },
+  {
+    "id": "5adf993f5542992d7e9f93b1",
+    "question": "In what year was the chemist who founded Mond gas born?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Mond gas"
+    ],
+    "relevant_doc_ids": [
+      "19104225",
+      "850924"
+    ]
+  },
+  {
+    "id": "5adfe37255429942ec259b6b",
+    "question": "What Soviet-born Dutch-British physicist wrote a paper that described devices that contained just one, two, or three atomic layers?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Bilayer graphene"
+    ],
+    "relevant_doc_ids": [
+      "32306936",
+      "17054160"
+    ]
+  },
+  {
+    "id": "5ae003f355429925eb1afbe2",
+    "question": "What year did Barton-Zard scientist, Derek Barton, win a Nobel Prize?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Barton–Zard reaction"
+    ],
+    "relevant_doc_ids": [
+      "25198547",
+      "1227143"
+    ]
+  },
+  {
+    "id": "5ae082f955429924de1b70f6",
+    "question": "Tin is widely used in eletrolytic baths for which process that forms a metal coating?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Tin(II) chloride",
+      "Electroplating"
+    ],
+    "relevant_doc_ids": [
+      "2020855",
+      "51025"
+    ]
+  },
+  {
+    "id": "5ae0c6815542993d6555ec5e",
+    "question": "The Deutsche Gesellschaft für Schädlingsbekämpfung mbH (translation: German Corporation for Pest control), in short Degesch, is a German chemical corporation, Degesch had the patent of the infamous Zyklon B, was the trade name of a cyanide-based pesticide invented in which country in the early 1920s?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Zyklon B"
+    ],
+    "relevant_doc_ids": [
+      "29128969",
+      "71305"
+    ]
+  },
+  {
+    "id": "5ae0f0595542990adbacf6e4",
+    "question": "Homogentisic acid is found in the what type of Irish tree in Europe?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Homogentisic acid"
+    ],
+    "relevant_doc_ids": [
+      "4013262",
+      "1959451"
+    ]
+  },
+  {
+    "id": "5ae0f76d554299422ee99587",
+    "question": "The manufacturer of Premarin was purchased by Pfizer in what year?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Premarin"
+    ],
+    "relevant_doc_ids": [
+      "1246465",
+      "30846397"
+    ]
+  },
+  {
+    "id": "5ae140575542997b2ef7d17a",
+    "question": "What prize did Rene Marcelin's mentor Jean Baptiste Perrin receive in 1926?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "René Marcelin"
+    ],
+    "relevant_doc_ids": [
+      "46467177",
+      "573998"
+    ]
+  },
+  {
+    "id": "5ae1a691554299234fd042ad",
+    "question": "What position did the physician and chemist, who was the first to recognize the distinction between heat and temperature, hold at the University of Glasgow?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Calorimetry"
+    ],
+    "relevant_doc_ids": [
+      "7522",
+      "457616"
+    ]
+  },
+  {
+    "id": "5ae1baf1554299422ee99688",
+    "question": "Where was the company located that the Radium Girls sue?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Radium dials"
+    ],
+    "relevant_doc_ids": [
+      "6146060",
+      "13301401"
+    ]
+  },
+  {
+    "id": "5ae203ba5542994d89d5b303",
+    "question": "What region of the world are crackers that contain sodium salt of glutamic acid as seasoning most commonly found?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Monosodium glutamate"
+    ],
+    "relevant_doc_ids": [
+      "47862671",
+      "62289"
+    ]
+  },
+  {
+    "id": "5ae2abc2554299492dc91c44",
+    "question": "Q1: What are the main two common uses for Pentetic Acid and Ethylenediaminetetraacetic acid?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Pentetic acid",
+      "Ethylenediaminetetraacetic acid"
+    ],
+    "relevant_doc_ids": [
+      "4746146",
+      "182451"
+    ]
+  },
+  {
+    "id": "5ae2e3a25542991a06ce98f0",
+    "question": "Who discovered the scattering of which Thomson scattering is just the low energy limit ?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Compton scattering"
+    ],
+    "relevant_doc_ids": [
+      "624714",
+      "55236"
+    ]
+  },
+  {
+    "id": "5ae30e475542991a06ce9925",
+    "question": "the chemical element Lawrencium is named after a scientist born in which year ?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Lawrencium"
+    ],
+    "relevant_doc_ids": [
+      "17746",
+      "39040"
+    ]
+  },
+  {
+    "id": "5ae32fbd5542990afbd1e0d1",
+    "question": "What is the type of particle of the concept that was proposed by the Soviet physicist who also discovered the theory of superfluidity?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Polaron"
+    ],
+    "relevant_doc_ids": [
+      "699689",
+      "80322"
+    ]
+  },
+  {
+    "id": "5ae3463c5542992e3233c358",
+    "question": "What is the name of this waterproff, beathable fabric membrane and registered trademark of W.L. Gore and Associates, used in apparel by Angus Llloyd and his company Manchester?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Gore-Tex"
+    ],
+    "relevant_doc_ids": [
+      "38220517",
+      "246289"
+    ]
+  },
+  {
+    "id": "5ae4e09255429908b63264a0",
+    "question": "Who is the manufacturer of the skin care medicine in UK in which niacinamide vitamin is an active ingredient which is found in food?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Nicotinamide"
+    ],
+    "relevant_doc_ids": [
+      "37084399",
+      "21968"
+    ]
+  },
+  {
+    "id": "5ae4f90e55429913cc20454c",
+    "question": "Ørstedsparken park is named for Anders Sandøe Ørsted and a physicist that died in what year?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Hans Christian Ørsted"
+    ],
+    "relevant_doc_ids": [
+      "22639415",
+      "7575091"
+    ]
+  },
+  {
+    "id": "5ae51a835542993aec5ec141",
+    "question": "When was the UC Berkeley Physics professor for whom the Born-Oppenheimer approximation is named born?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Born–Oppenheimer approximation"
+    ],
+    "relevant_doc_ids": [
+      "68946",
+      "39034"
+    ]
+  },
+  {
+    "id": "5ae52f9355429908b6326558",
+    "question": "The Indian Institute of Natural Resins and Gums (acronym IINRG), formerly known as the Indian Lac Research Institute, is an autonomous institute, established under the umbrella of Indian Council of Agricultural Research (ICAR) by the Ministry of Agriculture, Government of India, for advanced research on what, and other natural resins and Gum arabic?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Gum arabic"
+    ],
+    "relevant_doc_ids": [
+      "43220673",
+      "288420"
+    ]
+  },
+  {
+    "id": "5ae5303b55429908b632655d",
+    "question": "Jakhal is a village in the Shekhawati region of Rajasthan, in which country, the main crops in the winter months include mustard oil, used for two different oils that are made from mustard seeds?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Mustard oil"
+    ],
+    "relevant_doc_ids": [
+      "4119707",
+      "746422"
+    ]
+  },
+  {
+    "id": "5ae5336455429908b6326573",
+    "question": "Interbol, is an international space project under the leadership of which organization, and the Space Research Institute of the Russian Academy of Sciences, the goal of the project is to study the correlations between which item, can simply be considered as a gaseous mixture of negatively charged electrons and highly charged positive ions, however, true plasma production is from the distinct separation of these ions and electrons that produces an electric field, which in turn, produces electric currents and magnetic fields, in the tail of the magnetosphere and in the Van Allen radiation belt?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Plasma (physics)"
+    ],
+    "relevant_doc_ids": [
+      "16547978",
+      "25916521"
+    ]
+  },
+  {
+    "id": "5ae544c355429960a22e02a8",
+    "question": "Carborundum printmaking is a collagraph printmaking technique in which the image is created by adding light passages to a dark field, normally, cardboard or wood plates are coated in a layer of Silicon carbide (SiC), also known as carborundum, is a compound of silicon and carbon, synthetic silicon carbide powder has been mass-produced since which year?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Silicon carbide"
+    ],
+    "relevant_doc_ids": [
+      "4473047",
+      "225256"
+    ]
+  },
+  {
+    "id": "5ae546a15542990ba0bbb24f",
+    "question": "Siberian-Urals Aluminium Company comprises 19 businesses involved in the production of a chemical compound that naturally in what crystalline polymorphic phase?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Aluminium oxide"
+    ],
+    "relevant_doc_ids": [
+      "1708445",
+      "141888"
+    ]
+  },
+  {
+    "id": "5ae5608a5542992663a4f1ef",
+    "question": "What kind of compound is Oxalic acid?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Oxalic acid"
+    ],
+    "relevant_doc_ids": [
+      "59483",
+      "522690"
+    ]
+  },
+  {
+    "id": "5ae5ce9f55429929b08079a8",
+    "question": "What medication, used as chemotherapy and to suppress the immune system, is used as treatment for Autoimmune encephalitis?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Cyclophosphamide"
+    ],
+    "relevant_doc_ids": [
+      "41446547",
+      "1674907"
+    ]
+  },
+  {
+    "id": "5ae5e1a55542996de7b71a55",
+    "question": "Who created a substance that was banned by the UK on 10 June of 2013?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "25D-NBOMe",
+      "25I-NBOMe"
+    ],
+    "relevant_doc_ids": [
+      "39920255",
+      "17256523"
+    ]
+  },
+  {
+    "id": "5ae5f2265542996de7b71a77",
+    "question": "What is one drug that replaced drugs that were first shown to be an anesthetic at the Ether Dome?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Diethyl ether"
+    ],
+    "relevant_doc_ids": [
+      "42955343",
+      "765457"
+    ]
+  },
+  {
+    "id": "5ae6053c55429929b0807a60",
+    "question": "What is the historical name of the acid that dissolves phenazine?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Phenazine",
+      "Sulfuric acid"
+    ],
+    "relevant_doc_ids": [
+      "3147635",
+      "29247"
+    ]
+  },
+  {
+    "id": "5ae60a8b55429929b0807aa8",
+    "question": "What vitamin is David P. Ballou known for studying?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Vitamin B12"
+    ],
+    "relevant_doc_ids": [
+      "40917254",
+      "14538619"
+    ]
+  },
+  {
+    "id": "5ae616a95542995703ce8aef",
+    "question": "What naturally occurring neurotransmitter and a psychoactive drug did Andrew Luster use to commit multiple sexual assaults?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Gamma-Hydroxybutyric acid"
+    ],
+    "relevant_doc_ids": [
+      "248942",
+      "12962"
+    ]
+  },
+  {
+    "id": "5ae61c8355429929b0807ad2",
+    "question": "Styrophone is often made from what type of closed-cell polystyrene?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Styrofoam"
+    ],
+    "relevant_doc_ids": [
+      "636510",
+      "201308"
+    ]
+  },
+  {
+    "id": "5ae6210b5542995703ce8b1b",
+    "question": "What is the most common seasoning used on Pretzels?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Salt"
+    ],
+    "relevant_doc_ids": [
+      "213589",
+      "1605200"
+    ]
+  },
+  {
+    "id": "5ae62d605542992663a4f274",
+    "question": "When was the University founded, at which Raymond F. Schinazi is employed ?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Amdoxovir"
+    ],
+    "relevant_doc_ids": [
+      "15564595",
+      "42730"
+    ]
+  },
+  {
+    "id": "5ae65af65542996d980e7b06",
+    "question": "Le Chatelier's principle (pronounced ), also called Chatelier's principle or \"The Equilibrium Law\", can be used to predict the effect of a change in conditions on a chemical equilibrium, the principle is named after Henry Louis Le Chatelier and sometimes Karl Ferdinand Braun who discovered it how?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Le Chatelier's principle"
+    ],
+    "relevant_doc_ids": [
+      "37427",
+      "17297"
+    ]
+  },
+  {
+    "id": "5ae689b955429908198fa5f6",
+    "question": "What waaxy crystaline substance obtained from corn mint is used in making Camel Cruch Cigarettes?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Menthol"
+    ],
+    "relevant_doc_ids": [
+      "18483726",
+      "317380"
+    ]
+  },
+  {
+    "id": "5ae690385542992ae0d1635c",
+    "question": "Christian Albrecht Jensen was a portrait painter who depicted leading figures such as a chemist who shaped what?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Hans Christian Ørsted"
+    ],
+    "relevant_doc_ids": [
+      "9467233",
+      "7575091"
+    ]
+  },
+  {
+    "id": "5ae697f15542996d980e7c2d",
+    "question": "What is the birthdate of this English physicist, who published first the Long Form periodic table or Modern periodic table and published Moseley's Law?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Moseley's law"
+    ],
+    "relevant_doc_ids": [
+      "1983277",
+      "14454"
+    ]
+  },
+  {
+    "id": "5ae698c955429908198fa649",
+    "question": "In what decades was the synthetic stimulant of which Alpha-Pyrrolidinopentiothiophenone is an analogue where the phenyl ring has been replaced by thiophene developed?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Alpha-Pyrrolidinopentiothiophenone",
+      "Alpha-Pyrrolidinopentiophenone"
+    ],
+    "relevant_doc_ids": [
+      "47107284",
+      "24309736"
+    ]
+  },
+  {
+    "id": "5ae699365542992ae0d1636a",
+    "question": "Cetalkonium chloride (CKC) is a quaternary ammonium compound of which type of cationic surfactant?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Cetalkonium chloride",
+      "Benzalkonium chloride"
+    ],
+    "relevant_doc_ids": [
+      "22561086",
+      "498773"
+    ]
+  },
+  {
+    "id": "5ae6affe55429908198fa67e",
+    "question": "In aftershave, what is the name of the organic compound that is made from corn mint, peppermint, or other mint oils?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Menthol"
+    ],
+    "relevant_doc_ids": [
+      "3508232",
+      "317380"
+    ]
+  },
+  {
+    "id": "5ae6bf2a55429908198fa6a9",
+    "question": "Corneliu E. Giurgea, was a Romanian psychologist and chemist, in 1964, he synthetised which medication in the racetams group, with chemical name \"2-oxo-1-pyrrolidine acetamide\"?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Piracetam"
+    ],
+    "relevant_doc_ids": [
+      "20598861",
+      "685491"
+    ]
+  },
+  {
+    "id": "5ae6d0af5542996d980e7c81",
+    "question": "Where is the company that is developing Ipatasertib headquarters located?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Ipatasertib"
+    ],
+    "relevant_doc_ids": [
+      "52831900",
+      "548739"
+    ]
+  },
+  {
+    "id": "5ae6f683554299572ea5464d",
+    "question": "What alkane of six carbon atoms, also has the chemical formula CH and is part of the hydrocarbon based solvent mixture, Petroleum benzine?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Petroleum benzine",
+      "Hexane"
+    ],
+    "relevant_doc_ids": [
+      "47760832",
+      "105952"
+    ]
+  },
+  {
+    "id": "5ae72f66554299572ea5476b",
+    "question": "Activated charcoal and zeolites are both categorized by having pores equal to or smaller than what size?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Nanoporous materials",
+      "Activated carbon"
+    ],
+    "relevant_doc_ids": [
+      "6308157",
+      "395375"
+    ]
+  },
+  {
+    "id": "5ae7507d5542997b22f6a6bb",
+    "question": "Which material was created by Leo Baekeland and makes up the door handles at the Tivoli Theatre?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Bakelite"
+    ],
+    "relevant_doc_ids": [
+      "11197720",
+      "4485"
+    ]
+  },
+  {
+    "id": "5ae786245542994a481bbd51",
+    "question": "Combat boots are military boots designed to be worn by soldiers during combat or combat training, as opposed to during parades and other ceremonial duties, today, many combat boots incorporate technologies originating in civilian hiking boots, such as what, which  is a waterproof, breathable fabric membrane and registered trademark of W. L. Gore and Associates?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Gore-Tex"
+    ],
+    "relevant_doc_ids": [
+      "1334761",
+      "246289"
+    ]
+  },
+  {
+    "id": "5ae78c51554299540e5a55eb",
+    "question": "Lymecycline is marketed by the company that became a subsidiary of what multinational in 2014?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Lymecycline"
+    ],
+    "relevant_doc_ids": [
+      "4116120",
+      "3047951"
+    ]
+  },
+  {
+    "id": "5ae7cf305542997ec27276f1",
+    "question": "5 fold diffraction pattern symmetries were discovered in 1982 by dan shechtman when he discovered this phase which opened new field of study in quasiperiodic crystals",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Crystallographic restriction theorem"
+    ],
+    "relevant_doc_ids": [
+      "2218040",
+      "3674396"
+    ]
+  },
+  {
+    "id": "5ae7d774554299540e5a5662",
+    "question": "In what year was the physicist after whom the van der Waals forces were named born?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Van der Waals force"
+    ],
+    "relevant_doc_ids": [
+      "70657",
+      "230711"
+    ]
+  },
+  {
+    "id": "5ae801ea554299321098402c",
+    "question": "What is the atomic number for the chemical element which is also a radioactve chalcogen?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Chalcogenide glass",
+      "Polonium"
+    ],
+    "relevant_doc_ids": [
+      "2023977",
+      "23325"
+    ]
+  },
+  {
+    "id": "5ae8092b5542994a481bbe98",
+    "question": "What 1976 federal law known as the RCRA cited the American Brass Superfund?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "American Brass Superfund site"
+    ],
+    "relevant_doc_ids": [
+      "39207332",
+      "626115"
+    ]
+  },
+  {
+    "id": "5ae80ef3554299540e5a571d",
+    "question": "North American fir is used to make what?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Canada balsam"
+    ],
+    "relevant_doc_ids": [
+      "600835",
+      "600841"
+    ]
+  },
+  {
+    "id": "5ae81cc35542997ec2727714",
+    "question": "Terfenol-D is an alloy that contains a chemical element with an atomic number of what?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Terfenol-D",
+      "Dysprosium"
+    ],
+    "relevant_doc_ids": [
+      "1545150",
+      "8102"
+    ]
+  },
+  {
+    "id": "5ae81ede55429952e35eaa31",
+    "question": "What is detected by the HVA metabolite, produced by the organic chemical of the catecholamine and phenethylamine families?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Homovanillic acid",
+      "Dopamine"
+    ],
+    "relevant_doc_ids": [
+      "6621461",
+      "48548"
+    ]
+  },
+  {
+    "id": "5ae823d155429952e35eaa52",
+    "question": "Who was the wife of the physicist for which Curite is named?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "Curite"
+    ],
+    "relevant_doc_ids": [
+      "28850335",
+      "24509"
+    ]
+  },
+  {
+    "id": "5ae82e095542997ec272774a",
+    "question": "Which of the developer of STED microscopy is a Romanian-born German physicist and one of the directors of the Max Planck Institute for Biophysical Chemistry in Göttingen, Germany?",
+    "split": "train",
+    "matching_corpus_titles": [
+      "STED microscopy"
+    ],
+    "relevant_doc_ids": [
+      "4739349",
+      "8104355"
+    ]
+  }
+]

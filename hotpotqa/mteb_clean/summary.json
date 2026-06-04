@@ -1,0 +1,19 @@
+{
+  "source_dataset": "mteb/hotpotqa",
+  "chemistry_true_queries": 274,
+  "corpus_docs": 464,
+  "splits": {
+    "train": {
+      "queries": 234,
+      "qrels": 468
+    },
+    "dev": {
+      "queries": 14,
+      "qrels": 28
+    },
+    "test": {
+      "queries": 26,
+      "qrels": 52
+    }
+  }
+}
