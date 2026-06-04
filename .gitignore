@@ -4,6 +4,7 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .hermes/
+backups/
 
 # Raw dataset downloads kept local, not in git
 hotpot_train_v1.1.json

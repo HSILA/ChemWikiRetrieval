@@ -1,0 +1,23 @@
+{
+  "chemistry_article_count": 41060,
+  "source_dataset": "mteb/hotpotqa",
+  "filter_signal": "qrel-linked corpus document titles only",
+  "splits": {
+    "train": {
+      "total_queries": 85000,
+      "matches": 258,
+      "fraction": 0.0030352941176470588
+    },
+    "dev": {
+      "total_queries": 5447,
+      "matches": 15,
+      "fraction": 0.002753809436387002
+    },
+    "test": {
+      "total_queries": 7405,
+      "matches": 28,
+      "fraction": 0.0037812288993923026
+    }
+  },
+  "unique_matches": 301
+}

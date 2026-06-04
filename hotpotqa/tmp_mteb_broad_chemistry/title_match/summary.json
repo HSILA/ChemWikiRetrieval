@@ -1,0 +1,28 @@
+{
+  "variant": "title_match",
+  "selection": "qrel-title chemistry queries before Gemma cleanup",
+  "queries": {
+    "train": 258,
+    "dev": 15,
+    "test": 28
+  },
+  "queries_total": 301,
+  "qrels": {
+    "train": 516,
+    "dev": 30,
+    "test": 56
+  },
+  "qrels_total": 602,
+  "qrel_query_ids": 301,
+  "qrel_unique_corpus_ids": 507,
+  "qrels_per_query_distribution": {
+    "2": 301
+  },
+  "corpus_docs": 40289,
+  "corpus_docs_from_chemistry_title_filter": 40070,
+  "positive_docs_added_by_force": 219,
+  "unreferenced_corpus_docs": 39782,
+  "missing_positive_docs": 0,
+  "missing_positive_doc_ids_sample": [],
+  "output_dir": "/home/spark/projects/research/ChemWikiRetrieval/hotpotqa/tmp_mteb_broad_chemistry/title_match"
+}

@@ -1,0 +1,93 @@
+{
+  "source_dataset": "mteb/hotpotqa",
+  "chemistry_article_count": 41060,
+  "verification": {
+    "original_counts": {
+      "train": 90447,
+      "dev_fullwiki": 7405,
+      "dev_distractor": 7405,
+      "train_plus_one_dev_unique": 97852
+    },
+    "mteb_query_counts": {
+      "queries": 97852
+    },
+    "mteb_total_queries": 97852,
+    "mteb_qrel_counts": {
+      "dev": 10894,
+      "test": 14810,
+      "train": 170000
+    },
+    "mteb_qrel_query_counts": {
+      "dev": 5447,
+      "test": 7405,
+      "train": 85000
+    },
+    "checks": {
+      "mteb_total_equals_original_train_plus_one_dev": true,
+      "mteb_qrel_train_plus_dev_equals_original_train": true,
+      "mteb_qrel_test_equals_original_dev_fullwiki": true,
+      "mteb_qrel_test_equals_original_dev_distractor": true,
+      "qrel_query_ids_subset_of_query_ids": true
+    },
+    "verified_roughly_identical": true
+  },
+  "status": "built",
+  "variants": {
+    "title_match": {
+      "variant": "title_match",
+      "selection": "qrel-title chemistry queries before Gemma cleanup",
+      "queries": {
+        "train": 258,
+        "dev": 15,
+        "test": 28
+      },
+      "queries_total": 301,
+      "qrels": {
+        "train": 516,
+        "dev": 30,
+        "test": 56
+      },
+      "qrels_total": 602,
+      "qrel_query_ids": 301,
+      "qrel_unique_corpus_ids": 507,
+      "qrels_per_query_distribution": {
+        "2": 301
+      },
+      "corpus_docs": 40289,
+      "corpus_docs_from_chemistry_title_filter": 40070,
+      "positive_docs_added_by_force": 219,
+      "unreferenced_corpus_docs": 39782,
+      "missing_positive_docs": 0,
+      "missing_positive_doc_ids_sample": [],
+      "output_dir": "/home/spark/projects/research/ChemWikiRetrieval/hotpotqa/tmp_mteb_broad_chemistry/title_match"
+    },
+    "gemma_true": {
+      "variant": "gemma_true",
+      "selection": "Gemma-cleaned qrel-title chemistry queries",
+      "queries": {
+        "train": 234,
+        "dev": 14,
+        "test": 26
+      },
+      "queries_total": 274,
+      "qrels": {
+        "train": 468,
+        "dev": 28,
+        "test": 52
+      },
+      "qrels_total": 548,
+      "qrel_query_ids": 274,
+      "qrel_unique_corpus_ids": 464,
+      "qrels_per_query_distribution": {
+        "2": 274
+      },
+      "corpus_docs": 40262,
+      "corpus_docs_from_chemistry_title_filter": 40070,
+      "positive_docs_added_by_force": 192,
+      "unreferenced_corpus_docs": 39798,
+      "missing_positive_docs": 0,
+      "missing_positive_doc_ids_sample": [],
+      "output_dir": "/home/spark/projects/research/ChemWikiRetrieval/hotpotqa/tmp_mteb_broad_chemistry/gemma_true"
+    }
+  }
+}

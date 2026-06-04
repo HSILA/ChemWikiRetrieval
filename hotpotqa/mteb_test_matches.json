@@ -1,0 +1,339 @@
+[
+  {
+    "id": "5a712e895542994082a3e636",
+    "question": "C.J. Hunter was tested positive for which type of injected steroid before he competed in the 2000 Summer Olympic Games?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Nandrolone"
+    ],
+    "relevant_doc_ids": [
+      "5911565",
+      "731746"
+    ]
+  },
+  {
+    "id": "5a71646e5542994082a3e80e",
+    "question": "What is the proper name for the steroid used by the retired British track sprinter who is one of the fastest European sprinters in the history of athletics?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Tetrahydrogestrinone"
+    ],
+    "relevant_doc_ids": [
+      "346814",
+      "488099"
+    ]
+  },
+  {
+    "id": "5a719bf25542994082a3e891",
+    "question": "The astronomer who formulated the theory of stellar nucleosynthesis co-authored what landmark paper?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "B2FH paper"
+    ],
+    "relevant_doc_ids": [
+      "12317945",
+      "11001"
+    ]
+  },
+  {
+    "id": "5a72f3a85542992359bc31e5",
+    "question": "The large subunit and small subunit that use two types of RNA are major components that make up what?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Ribosome"
+    ],
+    "relevant_doc_ids": [
+      "50430120",
+      "25766"
+    ]
+  },
+  {
+    "id": "5a7354d55542994cef4bc55a",
+    "question": "Which of the three main psychedelic compounds found in the Psilocybin genus mushroom are converted to psilocin by the body?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Psilocybin"
+    ],
+    "relevant_doc_ids": [
+      "441822",
+      "38468"
+    ]
+  },
+  {
+    "id": "5a745e1455429929fddd83fd",
+    "question": "What drug is among the list of illegal drugs in the Philippines and can be taken by mouth or by injection?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Ephedrine"
+    ],
+    "relevant_doc_ids": [
+      "41465663",
+      "182945"
+    ]
+  },
+  {
+    "id": "5a75ac415542992d0ec05fdb",
+    "question": "The M104 155mm Projectile was specifically designed to carry about 11.7 pounds of what prototypical substance?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Sulfur mustard"
+    ],
+    "relevant_doc_ids": [
+      "20172594",
+      "46126"
+    ]
+  },
+  {
+    "id": "5a776a7055429966f1a36d32",
+    "question": "What was the nationality and profession of the person responsible for the concept of a dimensionless number in physics and engineering?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Fourier number"
+    ],
+    "relevant_doc_ids": [
+      "2998286",
+      "25767401"
+    ]
+  },
+  {
+    "id": "5a7a05485542990198eaf04c",
+    "question": "Special K is a slang word for a medication whose main effects last how long?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Ketamine"
+    ],
+    "relevant_doc_ids": [
+      "8915757",
+      "16948"
+    ]
+  },
+  {
+    "id": "5a7af08655429931da12c989",
+    "question": "What are caesium-137, radium and uranium-234 examples of?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Caesium-137"
+    ],
+    "relevant_doc_ids": [
+      "7469508",
+      "3093327"
+    ]
+  },
+  {
+    "id": "5a7b695f5542997c3ec97156",
+    "question": "In 2106 this magnetically confine nuclear fusion device achieved the highest pressure of a gaseous mixture of negatively charged electrons and highly charged ions called what?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Plasma (physics)"
+    ],
+    "relevant_doc_ids": [
+      "3540994",
+      "25916521"
+    ]
+  },
+  {
+    "id": "5a7caae75542996dd594b971",
+    "question": "What, known as AAS, is commonly used in bodybuilding?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Anabolic steroid"
+    ],
+    "relevant_doc_ids": [
+      "47677275",
+      "19218324"
+    ]
+  },
+  {
+    "id": "5a7dcc775542990b8f503ab5",
+    "question": "Which component of shellite has the formula (ON)CHOH?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Picric acid"
+    ],
+    "relevant_doc_ids": [
+      "40145449",
+      "65900"
+    ]
+  },
+  {
+    "id": "5a7fb23f5542994857a767be",
+    "question": "What is the chemical formula of the organic material that clementines have less of than oranges?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Citric acid"
+    ],
+    "relevant_doc_ids": [
+      "82867",
+      "54536"
+    ]
+  },
+  {
+    "id": "5a85e5345542991dd0999ebb",
+    "question": "Which mechanical device which engages and disengages power transmission  uses brake fluid?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Brake fluid"
+    ],
+    "relevant_doc_ids": [
+      "1338292",
+      "6517"
+    ]
+  },
+  {
+    "id": "5ab250b9554299722f9b4cd9",
+    "question": "The scientists who discovered Tedatioxetine were from what international pharmaceutical company?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Tedatioxetine"
+    ],
+    "relevant_doc_ids": [
+      "26482400",
+      "778956"
+    ]
+  },
+  {
+    "id": "5ab5895f554299637185c5c2",
+    "question": "The Schumann–Runge bands are named for at least one German what?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Schumann–Runge bands"
+    ],
+    "relevant_doc_ids": [
+      "45640813",
+      "747636"
+    ]
+  },
+  {
+    "id": "5ab81cd955429916710eaff7",
+    "question": "What kind of energy does a plasma weapon produce?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Plasma (physics)"
+    ],
+    "relevant_doc_ids": [
+      "596381",
+      "25916521"
+    ]
+  },
+  {
+    "id": "5ab8688b55429934fafe6daa",
+    "question": "What material did a hairdresser from Yorkshire, England invent that was named by his granddaughter?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Starlite"
+    ],
+    "relevant_doc_ids": [
+      "32044632",
+      "10798875"
+    ]
+  },
+  {
+    "id": "5ab9bc6155429970cfb8eb90",
+    "question": "Are both the flowering plants Desfontainia and Alisma  in the family Potaliaceae?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Desfontainia"
+    ],
+    "relevant_doc_ids": [
+      "6948626",
+      "1033431"
+    ]
+  },
+  {
+    "id": "5ac160af5542994d76dccdfa",
+    "question": "At what university is the organic chemist who headed the group that designed the nanocar a professor?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Nanocar"
+    ],
+    "relevant_doc_ids": [
+      "3037149",
+      "1791478"
+    ]
+  },
+  {
+    "id": "5ac2e97d554299657fa290c0",
+    "question": "Where is the company that created Doravirine ( from?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Doravirine"
+    ],
+    "relevant_doc_ids": [
+      "38749432",
+      "30874304"
+    ]
+  },
+  {
+    "id": "5ac547525542993e66e822a3",
+    "question": "In 2017, what was 3/4th of the organization that also has a Center for Veterinary Medicine as well as part of the U.S. Department of Health and Human Services, spent on?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Melarsomine"
+    ],
+    "relevant_doc_ids": [
+      "21103950",
+      "11632"
+    ]
+  },
+  {
+    "id": "5adbf69c55429947ff173871",
+    "question": "Tolex and General Tire manufacture very different products, but both make accessories for what type of transportation vehicle?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Tolex"
+    ],
+    "relevant_doc_ids": [
+      "1250864",
+      "259125"
+    ]
+  },
+  {
+    "id": "5add39ca5542992ae4cec4fb",
+    "question": "Which maker of Robatumumab is American?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Robatumumab"
+    ],
+    "relevant_doc_ids": [
+      "21197994",
+      "30874304"
+    ]
+  },
+  {
+    "id": "5ae24b165542996483e64962",
+    "question": "Who created the first rule of chemistry?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Hund's rules"
+    ],
+    "relevant_doc_ids": [
+      "1682086",
+      "322104"
+    ]
+  },
+  {
+    "id": "5ae5b301554299546bf82f2d",
+    "question": "What produces the hormone that promotes sodium retention in the distal nephron?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Angiotensin",
+      "Aldosterone"
+    ],
+    "relevant_doc_ids": [
+      "270016",
+      "375130"
+    ]
+  },
+  {
+    "id": "5ae74eeb5542991bbc9761e1",
+    "question": "What's the familiar short name of Polyethylene terephthalate, a material used by bottle makers such as Ecopack of Pakistan?",
+    "split": "test",
+    "matching_corpus_titles": [
+      "Polyethylene terephthalate"
+    ],
+    "relevant_doc_ids": [
+      "5808014",
+      "292941"
+    ]
+  }
+]

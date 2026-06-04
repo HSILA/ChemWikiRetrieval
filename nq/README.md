@@ -2,7 +2,7 @@
 
 This folder contains the Natural Questions subset and the scripts that generated it.
 
-The goal is to start from the repo's chemistry article list, stream Natural Questions from Hugging Face, keep rows whose Wikipedia page is in scope, clean the topic matches, save the source HTML pages, and extract clean paragraph blocks for retrieval.
+The goal is to start from the repo's chemistry article list, stream Natural Questions from Hugging Face, keep rows whose Wikipedia page is in scope, clean the topic matches, save the source HTML pages, and extract clean section blocks for retrieval.
 
 ## Current outputs
 
@@ -20,9 +20,13 @@ The goal is to start from the repo's chemistry article list, stream Natural Ques
   - This folder is ignored and not included in the Git repository because it is large.
   - `extract_html_pages.py` also creates a local `nq/html_pages.tar.gz` archive, but that archive is ignored too because it is over GitHub's normal file-size limit.
 
-- `article_paragraphs.jsonl`
-  - Clean paragraph/list blocks extracted from the saved HTML files.
-  - Current count: 75,880 rows.
+- `article_sections.jsonl`
+  - Clean section blocks extracted from the saved HTML files.
+  - Current count: 29,020 rows.
+
+- `mteb_clean/`
+  - Final MTEB/BEIR-style retrieval export.
+  - Current count: 2,400 queries, 76,033 corpus rows, and 2,400 qrels.
 
 - `scripts/`
   - The active scripts for this NQ pipeline.
@@ -146,7 +150,7 @@ cd /home/spark/projects/research/ChemWikiRetrieval
 .venv/bin/python nq/scripts/extract_html_pages.py
 ```
 
-## Step 5: Extract clean article paragraphs
+## Step 5: Extract clean article sections
 
 Script:
 
@@ -157,15 +161,67 @@ nq/scripts/extract_article_paragraphs.py
 What it does:
 
 - Reads HTML files from `nq/html_pages/`.
-- Extracts paragraph and list-like text blocks.
+- Extracts one block per Wikipedia section including all paragraphs and lists under each heading.
 - Removes navigation, references, tables, infoboxes, citations, edit labels, and other page chrome.
 - Preserves compact raw LaTeX from math image alt text when useful.
-- Drops long display equations and boilerplate fragments that make poor retrieval text.
-- Writes clean blocks to `nq/article_paragraphs.jsonl`.
+- Drops long display equations and boilerplate fragments.
+- Writes clean blocks to `nq/article_sections.jsonl`.
 
 Command:
 
 ```bash
 cd /home/spark/projects/research/ChemWikiRetrieval
 .venv/bin/python nq/scripts/extract_article_paragraphs.py
+```
+
+## Step 6: Build the final MTEB export
+
+Script:
+
+```text
+nq/scripts/build_mteb_dataset.py
+```
+
+Output folder:
+
+```text
+nq/mteb_clean/
+```
+
+Files:
+
+- `corpus.jsonl`
+  - MTEB-style rows with `_id`, `title`, and `text`.
+  - Current count: 29,513 rows.
+
+- `queries.jsonl`
+  - MTEB-style rows with `_id` and `text`.
+  - Current count: 2,582 rows.
+
+- `qrels/test.jsonl`
+  - MTEB-style relevance rows with `query-id`, `corpus-id`, and `score`.
+  - Current count: 2,582 rows.
+
+What was kept:
+
+- Only Gemma `chemistry=true` questions.
+- Only questions that have a valid long-answer evidence.
+- For questions where the NQ annotated answer falls inside a table, the question is dropped.
+- For questions where the NQ annotated answer is a list or paragraph, the builder now recovers the answer text from the raw byte span and maps it to the enclosing section.
+
+What was removed:
+
+- 185 topic-filter false matches.
+- 229 questions whose long answer could not be resolved to any usable text.
+- 62 former multi-block questions are no longer removed. Their raw answer text is now recovered and mapped to a section.
+- 5 questions whose positive block was a clipped intro to a removed equation/list/continuation.
+- 36 bad intro corpus rows were also excluded.
+
+Command:
+
+```bash
+cd /home/spark/projects/research/ChemWikiRetrieval
+.venv/bin/python nq/scripts/build_mteb_dataset.py \
+  --nq-dir nq \
+  --out-dir nq/mteb_clean
 ```

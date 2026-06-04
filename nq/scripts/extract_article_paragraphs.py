@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-"""Extract clean article paragraph/list blocks from saved NQ Wikipedia HTML pages.
+"""Extract clean article sections from saved NQ Wikipedia HTML pages.
 
-Input is nq/html_pages. Output is nq/article_paragraphs.jsonl.
+Merges H3-H6 subsections into their parent H2 section.
+Drops: References, Further reading, External links, See also.
+Input: nq/html_pages. Output: nq/article_sections.jsonl.
 """
 from __future__ import annotations
 
@@ -23,7 +25,7 @@ ROOT = Path(__file__).resolve().parents[2]
 CANONICAL_IN = ROOT / "nq/html_pages"
 LEGACY_IN = ROOT / "nq/html_pages"
 FALLBACK_IN = ROOT / "nq/html_pages"
-OUT = ROOT / "nq/article_paragraphs.jsonl"
+OUT = ROOT / "nq/article_sections.jsonl"
 
 STOP_SECTIONS = {
     "references", "notes", "footnotes", "bibliography", "sources", "further reading",
@@ -44,6 +46,9 @@ SKIP_IDS = {
     "toc", "catlinks", "siteNotice", "jump-to-nav", "contentSub", "siteSub",
     "mw-navigation", "mw-head", "mw-panel", "footer", "mw-page-base", "mw-head-base",
 }
+VOID_ELEMENTS = {
+    "area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"
+}
 
 
 def attrs_dict(attrs: list[tuple[str, str | None]]) -> dict[str, str]:
@@ -56,15 +61,12 @@ def attr_has(attrs: dict[str, str], needles: Iterable[str]) -> bool:
 
 
 def normalize_heading(text: str) -> str:
-    text = clean_text(text)
-    text = re.sub(r"^\d+(?:\.\d+)*\s+", "", text)
-    return text.strip()
+    return clean_text(text).strip()
 
 
 def clean_text(text: str) -> str:
     text = html.unescape(text)
     text = text.replace("\xa0", " ").replace("\u200b", "")
-    # Remove citation/note artifacts that can remain when reference markup is odd.
     text = re.sub(r"</?ref\b[^>]*>", " ", text, flags=re.I)
     text = re.sub(r"\[\s*(?:\d+(?:\s*[,-]\s*\d+)*|note\s+\d+|citation needed|clarification needed|dead link|failed verification)\s*\]", " ", text, flags=re.I)
     text = re.sub(r"\[\s*edit\s*\]", " ", text, flags=re.I)
@@ -80,11 +82,6 @@ def clean_text(text: str) -> str:
 
 
 def latex_alt_to_text(text: str) -> str:
-    """Return compact raw LaTeX from Wikipedia math-image alt text.
-
-    Keep the formula text only, without the mwe-math HTML wrapper. Drop long display
-    equations because they usually make poor standalone retrieval text.
-    """
     text = html.unescape(text or "").strip()
     if not text:
         return ""
@@ -104,40 +101,7 @@ def is_bad_section(path: list[str]) -> bool:
     return False
 
 
-def is_content_like(text: str, block_type: str) -> bool:
-    if not text or len(text) < 45:
-        return False
-    low = text.lower()
-    junk_bits = (
-        "retrieved from", "categories:", "hidden categories:", "wikimedia commons",
-        "international standard", "isbn", "authority control", "vte", "doi:",
-        "this page was last edited", "privacy policy", "terms of use",
-    )
-    if any(j in low for j in junk_bits):
-        return False
-    # Drop residual cross-reference/source-note lines that are not article prose.
-    if re.match(r"^(see also\b|references\s*:)", low):
-        return False
-    if re.fullmatch(r"[\W\d_]+", text):
-        return False
-    # Drop boilerplate that only introduces a removed equation, table, or list.
-    if text.endswith(":"):
-        return False
-    # Drop short clipped fragments left when a following equation/list was removed.
-    if len(text) < 160 and not re.search(r"[.!?\)\]\"]$", text):
-        return False
-    # Drop rows that are just flattened gene/protein symbol lists.
-    if re.match(r"^(?:[A-Z0-9][A-Z0-9-]{1,},\s*){5,}", text):
-        return False
-    if block_type == "li":
-        # Keep substantial prose/list facts; drop index-like or navigation-only items.
-        if len(text) < 80:
-            return False
-        if text.count(" ") < 10:
-            return False
-        if re.match(r"^(isbn|doi|pmid|category|file|template|help):", low):
-            return False
-    return True
+
 
 
 class WikiBlockParser(HTMLParser):
@@ -154,8 +118,11 @@ class WikiBlockParser(HTMLParser):
         self.heading_tag: str | None = None
         self.heading_parts: list[str] = []
         self.path: list[str] = ["Lead"]
+        self.section_root: list[str] = ["Lead"]  # H2-level path used for output
         self.block_tag: str | None = None
         self.block_parts: list[str] = []
+        self.section_parts: list[str] = []
+        self.subsection_names: list[str] = []
         self.blocks: list[dict] = []
         self.block_counter = 0
         self.stopped = False
@@ -175,19 +142,25 @@ class WikiBlockParser(HTMLParser):
                 self.content_depth = 1
             return
 
-        self.content_depth += 1
+        is_void = tag in VOID_ELEMENTS
+        if not is_void:
+            self.content_depth += 1
+
         if self.stopped:
             return
 
         if self.skip_depth:
-            self.skip_depth += 1
+            if not is_void:
+                self.skip_depth += 1
             return
 
         if tag in SKIP_TAGS or attrs.get("id") in SKIP_IDS or attr_has(attrs, SKIP_CLASS_SUBSTRINGS):
-            self.skip_depth = 1
+            if not is_void:
+                self.skip_depth = 1
             return
         if tag == "sup" and ("reference" in attrs.get("class", "").lower() or attrs.get("id", "").startswith("cite_ref")):
-            self.skip_depth = 1
+            if not is_void:
+                self.skip_depth = 1
             return
 
         if tag == "sub":
@@ -203,7 +176,10 @@ class WikiBlockParser(HTMLParser):
                 self.add_text(f" {symbol} ")
             return
 
-        if tag in {"h2", "h3", "h4"}:
+        if tag in {"h1", "h2", "h3", "h4", "h5", "h6"}:
+            if tag == "h1" and attrs.get("id") == "firstHeading":
+                self.in_h1 = True
+                return
             self.flush_block()
             self.heading_tag = tag
             self.heading_parts = []
@@ -251,17 +227,31 @@ class WikiBlockParser(HTMLParser):
                 if low in STOP_SECTIONS or any(low.startswith(p) for p in DROP_SECTION_PREFIXES):
                     self.flush_block()
                     if tag == "h2":
+                        # H2 stop section (References, See also, ...) ends the body.
+                        self.flush_section()
                         self.stopped = True
                     else:
-                        # Subsection-only banned path; keep parsing later sibling sections.
-                        self.path = self.path[: {"h3": 1, "h4": 2}.get(tag, 1)] + [heading]
+                        # A stop-prefixed H3-H6 inside a kept section (e.g. an
+                        # H3 "Sources of hydrogen" under "Process"): drop only this
+                        # subsection's own content via the now-bad path. Do NOT
+                        # flush_section, or the parent H2 would split into two rows
+                        # with the same section name.
+                        self.path = self.path[:1] + [heading]
                 else:
                     if tag == "h2":
+                        # H2 is the section boundary: flush accumulated text
+                        self.flush_section()
                         self.path = [heading]
-                    elif tag == "h3":
-                        self.path = (self.path[:1] if self.path else []) + [heading]
-                    elif tag == "h4":
-                        self.path = (self.path[:2] if len(self.path) >= 2 else self.path[:1]) + [heading]
+                        self.section_root = [heading]
+                    else:
+                        # H3-H6 merge into current section text; keep the
+                        # subsection name only as metadata, never inline.
+                        if heading not in self.subsection_names:
+                            self.subsection_names.append(heading)
+                        if tag == "h3":
+                            self.path = (self.path[:1] if self.path else []) + [heading]
+                        elif tag in {"h4", "h5", "h6"}:
+                            self.path = (self.path[:2] if len(self.path) >= 2 else self.path[:1]) + [heading]
             self.heading_tag = None
             self.heading_parts = []
         elif self.block_tag == tag:
@@ -302,20 +292,54 @@ class WikiBlockParser(HTMLParser):
             return
         text = clean_text(" ".join(self.block_parts))
         block_type = self.block_tag
-        if is_content_like(text, block_type) and not is_bad_section(self.path):
-            self.blocks.append({
-                "article_id": self.article_id,
-                "section_path": list(self.path) if self.path else ["Lead"],
-                "block_index": self.block_counter,
-                "block_type": block_type,
-                "text": text,
-            })
-            self.block_counter += 1
+        if text and not is_bad_section(self.path):
+            low = text.lower()
+            junk_bits = (
+                "retrieved from", "categories:", "hidden categories:", "wikimedia commons",
+                "international standard", "isbn", "authority control", "vte", "doi:",
+                "this page was last edited", "privacy policy", "terms of use",
+            )
+            if not any(j in low for j in junk_bits) and not re.fullmatch(r"[\W\d_]+", text):
+                if block_type == "li":
+                    self.section_parts.append(f"- {text}")
+                else:
+                    self.section_parts.append(text)
         self.block_tag = None
         self.block_parts = []
 
+    def flush_section(self):
+        text = clean_text(" ".join(self.section_parts))
+        if text and not is_bad_section(self.section_root):
+            low = text.lower()
+            junk_bits = (
+                "retrieved from", "categories:", "hidden categories:", "wikimedia commons",
+                "international standard", "isbn", "authority control", "vte", "doi:",
+                "this page was last edited", "privacy policy", "terms of use",
+            )
+            if (
+                len(text) >= 45
+                and not (len(text) < 150 and text.endswith(":") and "- " not in text)
+                and not any(j in low for j in junk_bits)
+                and not re.fullmatch(r"[\W\d_]+", text)
+            ):
+                root = list(self.section_root) if self.section_root else ["Lead"]
+                section_name = "summary" if (root and root[0] == "Lead") else root[0]
+                self.blocks.append({
+                    "article_id": self.article_id,
+                    "section": section_name,
+                    "section_path": root,
+                    "subsections": list(self.subsection_names),
+                    "block_index": self.block_counter,
+                    "block_type": "section",
+                    "text": text,
+                })
+                self.block_counter += 1
+        self.section_parts = []
+        self.subsection_names = []
+
     def close(self):
         self.flush_block()
+        self.flush_section()
         super().close()
 
     @property
@@ -337,6 +361,30 @@ def parse_filename(path: Path) -> tuple[str, str, str]:
     return article_id, title_part.replace("_", " "), oldid
 
 
+def dedup_latest_by_title(files: Iterable[Path]) -> list[Path]:
+    """Keep one snapshot per article title (the highest/latest oldid).
+
+    Multiple oldid snapshots of the same article must not each contribute a
+    full set of sections to the corpus, so the title contributes exactly one
+    set of sections, taken from its most recent revision.
+    """
+    best: dict[str, tuple[int, str, Path]] = {}
+    for p in files:
+        stem = p.stem
+        if "__oldid_" in stem:
+            title_part, oldid = stem.rsplit("__oldid_", 1)
+        else:
+            title_part, oldid = stem, ""
+        try:
+            oldid_val = int(oldid)
+        except ValueError:
+            oldid_val = -1
+        cur = best.get(title_part)
+        if cur is None or (oldid_val, str(p)) > (cur[0], cur[1]):
+            best[title_part] = (oldid_val, str(p), p)
+    return [best[t][2] for t in sorted(best)]
+
+
 def extract_file(path: Path) -> list[dict]:
     article_id, title_guess, oldid = parse_filename(path)
     parser = WikiBlockParser(article_id)
@@ -345,14 +393,18 @@ def extract_file(path: Path) -> list[dict]:
             parser.feed(chunk)
     parser.close()
     title = parser.title or title_guess
+    article_key = article_id.split("__oldid_")[0]
     rows = []
     for block in parser.blocks:
         row = {
             "id": f"{article_id}::b{block['block_index']:04d}",
             "article_id": article_id,
+            "article_key": article_key,
             "title": title,
             "oldid": oldid,
+            "section": block["section"],
             "section_path": block["section_path"],
+            "subsections": block["subsections"],
             "block_index": block["block_index"],
             "block_type": block["block_type"],
             "text": block["text"],
@@ -409,7 +461,6 @@ def validate_output(path: Path) -> dict:
 
 
 def completed_article_ids(path: Path) -> set[str]:
-    """Derive resume progress from the corpus JSONL itself; no sidecar state file."""
     done: set[str] = set()
     if not path.exists():
         return done
@@ -428,14 +479,12 @@ def completed_article_ids(path: Path) -> set[str]:
 
 
 def print_samples(input_dir: Path, names: list[str], random_count: int = 0) -> None:
-    files = []
-    for name in names:
-        matches = sorted(input_dir.glob(f"{name}__oldid_*.html"))
-        files.extend(matches[:1])
-    all_files = sorted(input_dir.glob("*.html"))
-    if random_count and all_files:
+    deduped = dedup_latest_by_title(input_dir.glob("*.html"))
+    by_title = {p.stem.split("__oldid_")[0]: p for p in deduped}
+    files = [by_title[n] for n in names if n in by_title]
+    if random_count and deduped:
         rng = random.Random(20260524)
-        files.extend(rng.sample(all_files, min(random_count, len(all_files))))
+        files.extend(rng.sample(deduped, min(random_count, len(deduped))))
     seen = set()
     for path in files:
         if path in seen:
@@ -443,8 +492,8 @@ def print_samples(input_dir: Path, names: list[str], random_count: int = 0) -> N
         seen.add(path)
         rows = extract_file(path)
         print(f"\nSAMPLE file={path.name} blocks={len(rows)}", flush=True)
-        for row in rows[:5]:
-            print(json.dumps({k: row[k] for k in ["id", "title", "section_path", "block_type", "text"]}, ensure_ascii=False)[:1200], flush=True)
+        for row in rows[:8]:
+            print(json.dumps({k: row[k] for k in ["id", "title", "section", "subsections", "text"]}, ensure_ascii=False)[:1200], flush=True)
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -468,11 +517,12 @@ def main(argv: list[str] | None = None) -> int:
         print_samples(input_dir, ["Lithium", "Helium", "MDMA", "Abiogenesis", "Atmospheric_pressure", "Loperamide"], random_count=4)
         return 0
 
-    files = sorted(input_dir.glob("*.html"))
+    files = dedup_latest_by_title(input_dir.glob("*.html"))
     if args.limit:
-        preferred = []
-        for name in ["Lithium", "Helium", "MDMA", "Abiogenesis", "Atmospheric_pressure", "Loperamide"]:
-            preferred.extend(sorted(input_dir.glob(f"{name}__oldid_*.html"))[:1])
+        by_title = {p.stem.split("__oldid_")[0]: p for p in files}
+        preferred = [by_title[n] for n in
+                     ["Lithium", "Helium", "MDMA", "Abiogenesis", "Atmospheric_pressure", "Loperamide"]
+                     if n in by_title]
         seen = set(preferred)
         files = preferred + [p for p in files if p not in seen]
         files = files[:args.limit]

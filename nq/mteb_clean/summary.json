@@ -1,0 +1,20 @@
+{
+  "source_matches": 3001,
+  "chemistry_true_questions": 2816,
+  "kept_queries": 2745,
+  "corpus_rows": 7874,
+  "corpus_titles": 1363,
+  "removed_bad_intro_corpus_rows": 12,
+  "removed_without_long_answer": 0,
+  "removed_no_corpus_title": 0,
+  "removed_missing_html": 0,
+  "removed_dropped_section_only": 16,
+  "removed_unmapped": 55,
+  "matched_by_section": 2737,
+  "matched_by_text_fallback": 8,
+  "output_files": {
+    "corpus": "/home/spark/projects/research/ChemWikiRetrieval/nq/mteb_clean/corpus.jsonl",
+    "queries": "/home/spark/projects/research/ChemWikiRetrieval/nq/mteb_clean/queries.jsonl",
+    "qrels": "/home/spark/projects/research/ChemWikiRetrieval/nq/mteb_clean/qrels/test.jsonl"
+  }
+}

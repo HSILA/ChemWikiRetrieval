@@ -1,0 +1,186 @@
+[
+  {
+    "id": "5a736f3855429901807db05c",
+    "question": "What is the chemical formula of the kind of ash of which Middlewich Folk and Boat Festival celebrates the raw materials needed for the manufacturing?",
+    "split": "dev",
+    "matching_corpus_titles": [
+      "Sodium carbonate"
+    ],
+    "relevant_doc_ids": [
+      "4036292",
+      "155726"
+    ]
+  },
+  {
+    "id": "5a762c435542992d0ec06048",
+    "question": "What compounds also known as ferric oxide is used in ceramic colorants?",
+    "split": "dev",
+    "matching_corpus_titles": [
+      "Ceramic colorants",
+      "Iron(III) oxide"
+    ],
+    "relevant_doc_ids": [
+      "15369710",
+      "215987"
+    ]
+  },
+  {
+    "id": "5a7650165542992d0ec0609f",
+    "question": "What is the chemical formula for the sulfate substance allowed in Organic farming?",
+    "split": "dev",
+    "matching_corpus_titles": [
+      "Copper(II) sulfate"
+    ],
+    "relevant_doc_ids": [
+      "72754",
+      "477292"
+    ]
+  },
+  {
+    "id": "5a77cb095542995d831812dc",
+    "question": "What is the molecular formula of the chemical for which Nylander's test looks?",
+    "split": "dev",
+    "matching_corpus_titles": [
+      "Nylander's test",
+      "Glucose"
+    ],
+    "relevant_doc_ids": [
+      "42416198",
+      "12950"
+    ]
+  },
+  {
+    "id": "5a7a41385542996a35c17166",
+    "question": "Women on Web sends medicine by mail that are taken by what?",
+    "split": "dev",
+    "matching_corpus_titles": [
+      "Mifepristone"
+    ],
+    "relevant_doc_ids": [
+      "18394204",
+      "181415"
+    ]
+  },
+  {
+    "id": "5a7c527d55429935c91b5157",
+    "question": "Who is the synthetic organic chemist that headed up group who designed the nanocar molecule in 2005?",
+    "split": "dev",
+    "matching_corpus_titles": [
+      "Nanocar"
+    ],
+    "relevant_doc_ids": [
+      "3037149",
+      "1791478"
+    ]
+  },
+  {
+    "id": "5a7d0d85554299452d57bac4",
+    "question": "Angiotensin, a peptide hormone, stimulates the release of the main mineralocorticoid hormone from what part of the adrenal gland?",
+    "split": "dev",
+    "matching_corpus_titles": [
+      "Angiotensin",
+      "Aldosterone"
+    ],
+    "relevant_doc_ids": [
+      "270016",
+      "375130"
+    ]
+  },
+  {
+    "id": "5a7ea12455429930675135aa",
+    "question": "In molecular biology, the Cofactor transferase family is a family of protein domains that includes biotin protein ligases, etc, The metabolism of the cofactors lipoic acid and which water-soluble B-vitamin, also called vitamin B, and formerly known as vitamin H, or coenzyme R, share this family?",
+    "split": "dev",
+    "matching_corpus_titles": [
+      "Biotin"
+    ],
+    "relevant_doc_ids": [
+      "25121692",
+      "54118"
+    ]
+  },
+  {
+    "id": "5a83d9205542993344746094",
+    "question": "Carnosine, a dipeptide molecule, featuring the characteristic ring of an inorganic compound with what formula?",
+    "split": "dev",
+    "matching_corpus_titles": [
+      "Carnosine",
+      "Imidazole"
+    ],
+    "relevant_doc_ids": [
+      "629186",
+      "1117286"
+    ]
+  },
+  {
+    "id": "5a8d506055429941ae14dfa1",
+    "question": "The actinide concept in nuclear chemistry was first theorized by a chemist who won the Noble Prize in Chemistry in what year ?",
+    "split": "dev",
+    "matching_corpus_titles": [
+      "Actinide concept"
+    ],
+    "relevant_doc_ids": [
+      "6151908",
+      "13120"
+    ]
+  },
+  {
+    "id": "5ab31cd8554299753aec5945",
+    "question": "Where is the company that released Biricodar baseD?",
+    "split": "dev",
+    "matching_corpus_titles": [
+      "Biricodar"
+    ],
+    "relevant_doc_ids": [
+      "1378052",
+      "1913376"
+    ]
+  },
+  {
+    "id": "5ab3fe9355429976abd1bd1b",
+    "question": "The Clausius–Clapeyron relation was named after a German physicist and mathematician who is considered one of the central founders of what area of science?",
+    "split": "dev",
+    "matching_corpus_titles": [
+      "Clausius–Clapeyron relation"
+    ],
+    "relevant_doc_ids": [
+      "1780425",
+      "175146"
+    ]
+  },
+  {
+    "id": "5ab6e43d554299710c8d1f9c",
+    "question": "When was the Soviet and Russian theoretical physicist died who was famous for Critical dimension?",
+    "split": "dev",
+    "matching_corpus_titles": [
+      "Critical dimension"
+    ],
+    "relevant_doc_ids": [
+      "1931707",
+      "339208"
+    ]
+  },
+  {
+    "id": "5abc3ad455429959677d6a5a",
+    "question": "What Dutch-American physicist and physical chemist, developed the Debye–Hückel equation and Debye–Hückel limiting law with chemist Erich Hückel?",
+    "split": "dev",
+    "matching_corpus_titles": [
+      "Debye–Hückel equation"
+    ],
+    "relevant_doc_ids": [
+      "2077027",
+      "37067"
+    ]
+  },
+  {
+    "id": "5ae0e65c5542993d6555ec8d",
+    "question": "What nationality was the scientist who developed the Wein filter ?",
+    "split": "dev",
+    "matching_corpus_titles": [
+      "Wien filter"
+    ],
+    "relevant_doc_ids": [
+      "20700323",
+      "149626"
+    ]
+  }
+]
